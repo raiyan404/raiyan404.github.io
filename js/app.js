@@ -681,10 +681,30 @@
   // =========================================================================
   // Lightbox Modal
   // =========================================================================
+  function updateLightboxInfoUI() {
+    if (!elements.lightboxSidebar) return;
+    if (state.showInfo) {
+      elements.lightboxSidebar.classList.remove('is-hidden');
+      if (elements.lightboxInfoBtn) {
+        elements.lightboxInfoBtn.style.color = 'var(--film-accent)';
+      }
+    } else {
+      elements.lightboxSidebar.classList.add('is-hidden');
+      if (elements.lightboxInfoBtn) {
+        elements.lightboxInfoBtn.style.color = 'var(--paper-300)';
+      }
+    }
+  }
+
   function openLightbox(photo) {
     if (!elements.lightboxDialog || !photo) return;
     state.selectedPhoto = photo;
     state.zoomLevel = 1;
+
+    // Mobile / Tablet: always start with photo fully visible (sidebar drawer closed)
+    // Desktop: open sidebar by default if space permits
+    state.showInfo = window.innerWidth >= 1024;
+    updateLightboxInfoUI();
     updateLightboxUI();
 
     if (elements.filmstripScroll) {
@@ -807,9 +827,50 @@
   if (elements.lightboxInfoBtn && elements.lightboxSidebar) {
     elements.lightboxInfoBtn.addEventListener('click', () => {
       state.showInfo = !state.showInfo;
-      elements.lightboxSidebar.style.display = state.showInfo ? 'flex' : 'none';
-      elements.lightboxInfoBtn.style.color = state.showInfo ? 'var(--film-accent)' : 'var(--paper-300)';
+      updateLightboxInfoUI();
     });
+  }
+
+  const sidebarCloseBtn = document.getElementById('lightbox-sidebar-close-btn');
+  if (sidebarCloseBtn) {
+    sidebarCloseBtn.addEventListener('click', () => {
+      state.showInfo = false;
+      updateLightboxInfoUI();
+    });
+  }
+
+  // Touch Swipe Navigation for Mobile Lightbox
+  let lbTouchStartX = 0;
+  let lbTouchStartY = 0;
+  if (elements.lightboxStage) {
+    elements.lightboxStage.addEventListener(
+      'touchstart',
+      (e) => {
+        if (e.touches.length === 1) {
+          lbTouchStartX = e.touches[0].clientX;
+          lbTouchStartY = e.touches[0].clientY;
+        }
+      },
+      { passive: true }
+    );
+
+    elements.lightboxStage.addEventListener(
+      'touchend',
+      (e) => {
+        if (e.changedTouches.length === 1) {
+          const deltaX = e.changedTouches[0].clientX - lbTouchStartX;
+          const deltaY = e.changedTouches[0].clientY - lbTouchStartY;
+          if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY) * 1.4) {
+            if (deltaX < 0) {
+              navigateLightbox('next');
+            } else {
+              navigateLightbox('prev');
+            }
+          }
+        }
+      },
+      { passive: true }
+    );
   }
 
   // Fullscreen Toggle
@@ -837,7 +898,7 @@
       elements.lightboxImgScaler.style.transform = `scale(${state.zoomLevel})`;
     } else if (e.key === 'i' || e.key === 'I') {
       state.showInfo = !state.showInfo;
-      elements.lightboxSidebar.style.display = state.showInfo ? 'flex' : 'none';
+      updateLightboxInfoUI();
     }
   });
 
