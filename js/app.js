@@ -62,6 +62,7 @@
     
     // Filmstrip
     filmstripScroll: document.getElementById('filmstrip-scroll'),
+    filmstripMotionToggle: document.getElementById('filmstrip-motion-toggle'),
 
     // Collections Showcase
     collectionsGrid: document.getElementById('collections-grid'),
@@ -264,36 +265,151 @@
   }
 
   // =========================================================================
-  // 35mm Negative Filmstrip Marquee
+  // 35mm Negative Filmstrip (Continuous Auto-Scroll)
   // =========================================================================
+  let autoScrollAnimId = null;
+  let lastAutoScrollTimestamp = 0;
+  let isFilmstripInteracting = false;
+  let filmstripResumeTimeout = null;
+  let isPointerDragging = false;
+  let dragStartX = 0;
+  let dragScrollLeft = 0;
+  let hasPointerDragged = false;
+  const FILMSTRIP_SPEED_PPS = 30; // 30 pixels per second: calm, unhurried auto-scroll
+
   function renderFilmstrip() {
     if (!elements.filmstripScroll) return;
     const stripPhotos = PHOTOS.slice(0, 24);
 
-    elements.filmstripScroll.innerHTML = stripPhotos
-      .map(
-        (photo, idx) => `
-        <div class="filmstrip-card" data-photo-id="${photo.id}">
-          <div class="filmstrip-thumb-wrap">
-            <img src="${photo.thumbUrl}" alt="${photo.title}" loading="lazy" draggable="false" />
-          </div>
-          <div class="filmstrip-meta-strip">
-            <span style="color: var(--film-accent);">#${String(idx + 1).padStart(2, '0')}</span>
-            <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 110px; color: var(--paper-200);">${photo.title}</span>
-            <span style="color: var(--paper-500);">${photo.camera.shutter}</span>
-          </div>
+    const renderCard = (photo, idx) => `
+      <div class="filmstrip-card" data-photo-id="${photo.id}">
+        <div class="filmstrip-thumb-wrap">
+          <img src="${photo.thumbUrl}" alt="${photo.title}" loading="lazy" draggable="false" />
         </div>
-      `
-      )
-      .join('');
+        <div class="filmstrip-meta-strip">
+          <span style="color: var(--film-accent); font-weight: 500;">#${String(idx + 1).padStart(2, '0')}</span>
+          <span class="filmstrip-meta-title">${photo.title}</span>
+          <span style="color: var(--paper-500); font-size: 0.6rem;">${photo.camera.shutter}</span>
+        </div>
+      </div>
+    `;
 
-    elements.filmstripScroll.querySelectorAll('.filmstrip-card').forEach((card) => {
-      card.addEventListener('click', () => {
-        const pid = card.getAttribute('data-photo-id');
-        const p = PHOTOS.find((item) => item.id === pid);
-        if (p) openLightbox(p);
-      });
+    // Render 2 identical sets side by side for seamless infinite wrapping
+    const setHtml = stripPhotos.map((photo, idx) => renderCard(photo, idx)).join('');
+    elements.filmstripScroll.innerHTML = setHtml + setHtml;
+
+    // Click inspection (delegated)
+    elements.filmstripScroll.onclick = (e) => {
+      if (hasPointerDragged) return; // Prevent click if user was dragging/swiping
+      const card = e.target.closest('.filmstrip-card');
+      if (!card) return;
+      const pid = card.getAttribute('data-photo-id');
+      const p = PHOTOS.find((item) => item.id === pid);
+      if (p) openLightbox(p);
+    };
+
+    // Desktop Mouse Drag-to-Scroll
+    elements.filmstripScroll.onmousedown = (e) => {
+      if (e.button !== 0) return;
+      isPointerDragging = true;
+      hasPointerDragged = false;
+      isFilmstripInteracting = true;
+      dragStartX = e.pageX - elements.filmstripScroll.offsetLeft;
+      dragScrollLeft = elements.filmstripScroll.scrollLeft;
+      if (filmstripResumeTimeout) clearTimeout(filmstripResumeTimeout);
+    };
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isPointerDragging || !elements.filmstripScroll) return;
+      const x = e.pageX - elements.filmstripScroll.offsetLeft;
+      const walk = x - dragStartX;
+      if (Math.abs(walk) > 4) {
+        hasPointerDragged = true;
+      }
+      elements.filmstripScroll.scrollLeft = dragScrollLeft - walk;
     });
+
+    window.addEventListener('mouseup', () => {
+      if (!isPointerDragging) return;
+      isPointerDragging = false;
+      if (filmstripResumeTimeout) clearTimeout(filmstripResumeTimeout);
+      filmstripResumeTimeout = setTimeout(() => {
+        isFilmstripInteracting = false;
+        hasPointerDragged = false;
+      }, 1500);
+    });
+
+    // Touch Handling (Mobile)
+    elements.filmstripScroll.addEventListener(
+      'touchstart',
+      () => {
+        isFilmstripInteracting = true;
+        hasPointerDragged = false;
+        if (filmstripResumeTimeout) clearTimeout(filmstripResumeTimeout);
+      },
+      { passive: true }
+    );
+
+    elements.filmstripScroll.addEventListener(
+      'touchmove',
+      () => {
+        hasPointerDragged = true;
+      },
+      { passive: true }
+    );
+
+    elements.filmstripScroll.addEventListener(
+      'touchend',
+      () => {
+        if (filmstripResumeTimeout) clearTimeout(filmstripResumeTimeout);
+        filmstripResumeTimeout = setTimeout(() => {
+          isFilmstripInteracting = false;
+          hasPointerDragged = false;
+        }, 1500);
+      },
+      { passive: true }
+    );
+
+    // Trackpad / Wheel Handling (PC)
+    elements.filmstripScroll.addEventListener(
+      'wheel',
+      () => {
+        isFilmstripInteracting = true;
+        if (filmstripResumeTimeout) clearTimeout(filmstripResumeTimeout);
+        filmstripResumeTimeout = setTimeout(() => {
+          isFilmstripInteracting = false;
+        }, 1500);
+      },
+      { passive: true }
+    );
+
+    // Start Auto-Scroll Animation Loop
+    if (!autoScrollAnimId) {
+      startFilmstripAutoScroll();
+    }
+  }
+
+  function startFilmstripAutoScroll() {
+    function step(timestamp) {
+      if (!lastAutoScrollTimestamp) lastAutoScrollTimestamp = timestamp;
+      const dt = Math.min((timestamp - lastAutoScrollTimestamp) / 1000, 0.1);
+      lastAutoScrollTimestamp = timestamp;
+
+      const scroller = elements.filmstripScroll;
+      if (scroller && !isFilmstripInteracting && !state.selectedPhoto) {
+        const halfWidth = scroller.scrollWidth / 2;
+        if (halfWidth > 0) {
+          scroller.scrollLeft += FILMSTRIP_SPEED_PPS * dt;
+          if (scroller.scrollLeft >= halfWidth) {
+            scroller.scrollLeft -= halfWidth;
+          }
+        }
+      }
+
+      autoScrollAnimId = requestAnimationFrame(step);
+    }
+
+    autoScrollAnimId = requestAnimationFrame(step);
   }
 
   // =========================================================================
@@ -571,6 +687,10 @@
     state.zoomLevel = 1;
     updateLightboxUI();
 
+    if (elements.filmstripScroll) {
+      elements.filmstripScroll.classList.add('is-lightbox-paused');
+    }
+
     if (!elements.lightboxDialog.open) {
       elements.lightboxDialog.showModal();
     }
@@ -582,6 +702,10 @@
       elements.lightboxDialog.close();
     }
     state.selectedPhoto = null;
+
+    if (elements.filmstripScroll) {
+      elements.filmstripScroll.classList.remove('is-lightbox-paused');
+    }
   }
 
   function updateLightboxUI() {

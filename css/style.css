@@ -610,7 +610,7 @@ body {
 }
 
 /* ==========================================================================
-   35mm Filmstrip Marquee
+   35mm Filmstrip (Auto-Scrolling Negative Strip)
    ========================================================================== */
 .filmstrip-section {
   position: relative;
@@ -647,6 +647,7 @@ body {
   overflow: hidden;
   opacity: 0.6;
   height: 1rem;
+  user-select: none;
 }
 
 .sprocket-hole {
@@ -668,9 +669,19 @@ body {
   display: flex;
   gap: 0.75rem;
   overflow-x: auto;
+  overflow-y: hidden;
   padding: 0.5rem 1rem;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  scroll-behavior: auto; /* Required for continuous delta-time JS auto-scroll */
+}
+
+.filmstrip-scroll:active {
+  cursor: grabbing;
 }
 
 .filmstrip-scroll::-webkit-scrollbar {
@@ -679,24 +690,25 @@ body {
 
 .filmstrip-card {
   flex: none;
-  width: 13rem;
+  width: 13.5rem;
   background: var(--bg-obsidian-900);
   border: 1px solid var(--border-subtle);
   border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 @media (min-width: 640px) {
   .filmstrip-card {
-    width: 15rem;
+    width: 15.5rem;
   }
 }
 
 .filmstrip-card:hover {
   border-color: var(--film-accent);
-  transform: scale(1.02);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), 0 0 10px rgba(230, 153, 71, 0.2);
 }
 
 .filmstrip-thumb-wrap {
@@ -712,6 +724,7 @@ body {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  display: block;
 }
 
 .filmstrip-meta-strip {
@@ -723,6 +736,27 @@ body {
   font-size: 0.65rem;
   color: var(--paper-400);
   background: var(--bg-obsidian-900);
+}
+
+.filmstrip-meta-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 110px;
+  color: var(--paper-200);
+}
+
+@media (min-width: 640px) {
+  .filmstrip-meta-title {
+    max-width: 135px;
+  }
+}
+
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .filmstrip-scroll {
+    scroll-behavior: smooth;
+  }
 }
 
 /* ==========================================================================
