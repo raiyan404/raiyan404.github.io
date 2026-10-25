@@ -2,7 +2,7 @@
   "name": "Light & Dust — Street Photography Archive",
   "short_name": "Light & Dust",
   "description": "Quiet frames from a loud city. A street photography archive by Md. Raiyan Islam.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#060608",
   "theme_color": "#060608",

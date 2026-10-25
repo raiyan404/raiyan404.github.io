@@ -62,7 +62,6 @@
     
     // Filmstrip
     filmstripScroll: document.getElementById('filmstrip-scroll'),
-    filmstripMotionToggle: document.getElementById('filmstrip-motion-toggle'),
 
     // Collections Showcase
     collectionsGrid: document.getElementById('collections-grid'),
@@ -1079,29 +1078,6 @@
   // Mobile Year
   const mobileYear = document.getElementById('mobile-year');
   if (mobileYear) mobileYear.textContent = new Date().getFullYear();
-
-  // Touch Swipe Gesture for Lightbox on Mobile
-  let touchStartX = 0;
-  let touchEndX = 0;
-  const lbStage = document.getElementById('lightbox-stage');
-  if (lbStage) {
-    lbStage.addEventListener('touchstart', (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    }, { passive: true });
-
-    lbStage.addEventListener('touchend', (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleSwipe();
-    }, { passive: true });
-
-    function handleSwipe() {
-      const diff = touchEndX - touchStartX;
-      if (Math.abs(diff) > 45) {
-        if (diff < 0) navigateLightbox('next');
-        else navigateLightbox('prev');
-      }
-    }
-  }
 
   // =========================================================================
   // Initialize Application
