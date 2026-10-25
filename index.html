@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="author" content="Md. Raiyan Islam" />
+  <meta name="copyright" content="Md. Raiyan Islam" />
+  <meta name="description" content="Light & Dust — Quiet frames from a loud city. A street photography archive by Md. Raiyan Islam." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#060608" />
+  <meta name="color-scheme" content="dark" />
+
+  <title>Light & Dust — Street Photography Archive</title>
+
+  <!-- Complete Multi-Platform Favicon Suite -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Social & Open Graph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Light & Dust — Street Photography Archive" />
+  <meta property="og:description" content="Quiet frames from a loud city. A street photography archive by Md. Raiyan Islam." />
+  <meta property="og:image" content="photos/display/night-watch-gantry.webp" />
+  <meta property="og:site_name" content="Light & Dust" />
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Light & Dust — Street Photography Archive" />
+  <meta name="twitter:description" content="Quiet frames from a loud city. A street photography archive by Md. Raiyan Islam." />
+  <meta name="twitter:image" content="photos/display/night-watch-gantry.webp" />
+
+  <!-- Preconnect to Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Preload Initial LCP Hero Image Candidate -->
+  <link rel="preload" as="image" href="photos/display/night-watch-gantry.webp" type="image/webp" fetchpriority="high" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    "name": "Light & Dust",
+    "description": "Quiet frames from a loud city. A street photography archive by Md. Raiyan Islam.",
+    "author": {
+      "@type": "Person",
+      "name": "Md. Raiyan Islam",
+      "url": "https://instagram.com/raiyan._.clicks"
+    },
+    "copyrightHolder": {
+      "@type": "Person",
+      "name": "Md. Raiyan Islam"
+    },
+    "genre": "Street Photography"
+  }
+  </script>
+
+  <!-- Modern Pure CSS Design System -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="select-none">
+
+  <!-- Accessibility Skip-to-Content Link -->
+  <a href="#gallery" class="skip-to-content">Skip to gallery</a>
+
+  <!-- =========================================================================
+       Navigation Header
+       ========================================================================= -->
+  <header id="site-header" class="site-header">
+    <div class="header-container">
+      <!-- Identity -->
+      <a href="#top" class="brand-link" id="brand-home-link">
+        <span class="brand-title">Light & Dust</span>
+        <span class="brand-tagline">Quiet frames from a loud city</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <!-- Collections Dropdown -->
+        <div class="collections-dropdown-wrap">
+          <button class="nav-link-btn" id="nav-collections-btn">
+            <span>Collections</span>
+            <span style="font-size: 0.65rem; color: var(--paper-400); background: var(--bg-obsidian-800); padding: 0.1rem 0.35rem; border-radius: 3px; border: 1px solid var(--border-subtle);">6</span>
+          </button>
+          <div class="collections-menu">
+            <div class="collections-menu-inner">
+              <button class="collections-menu-item active" data-nav-col="all">
+                <span>All Works</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="skies-and-light">
+                <span>01. Skies & Light</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="street-life">
+                <span>02. Street Life</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="urban-nature">
+                <span>03. Urban Nature</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="architecture-and-structure">
+                <span>04. Architecture & Structure</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="still-life-and-interiors">
+                <span>05. Still Life & Interiors</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+              <button class="collections-menu-item" data-nav-col="quiet-moments">
+                <span>06. Quiet Moments</span>
+                <span style="font-size: 0.65rem; color: var(--paper-500);">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <a href="#filmstrip-archive" class="nav-link-btn" style="text-decoration: none;">Filmstrip</a>
+        <button class="nav-link-btn" data-open-license>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>License</span>
+        </button>
+        <button class="nav-link-btn" data-open-contact>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>Contact</span>
+        </button>
+      </nav>
+
+      <!-- Right Protected Status Badge -->
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <button class="header-status-badge" data-open-license title="Protected archive under copyright license">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>102 Photos</span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer hidden">
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.75rem;">
+        <span style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--film-accent);">Collections</span>
+        <button id="mobile-drawer-close" style="background: none; border: none; color: var(--paper-300); cursor: pointer;">✕</button>
+      </div>
+
+      <button class="collections-menu-item" data-nav-col="all" style="font-size: 0.85rem; padding: 0.6rem 0;">All Photographs (102)</button>
+      <button class="collections-menu-item" data-nav-col="skies-and-light" style="font-size: 0.85rem; padding: 0.6rem 0;">01. Skies & Light</button>
+      <button class="collections-menu-item" data-nav-col="street-life" style="font-size: 0.85rem; padding: 0.6rem 0;">02. Street Life</button>
+      <button class="collections-menu-item" data-nav-col="urban-nature" style="font-size: 0.85rem; padding: 0.6rem 0;">03. Urban Nature</button>
+      <button class="collections-menu-item" data-nav-col="architecture-and-structure" style="font-size: 0.85rem; padding: 0.6rem 0;">04. Architecture & Structure</button>
+      <button class="collections-menu-item" data-nav-col="still-life-and-interiors" style="font-size: 0.85rem; padding: 0.6rem 0;">05. Still Life & Interiors</button>
+      <button class="collections-menu-item" data-nav-col="quiet-moments" style="font-size: 0.85rem; padding: 0.6rem 0;">06. Quiet Moments</button>
+
+      <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); display: flex; flex-direction: column; gap: 0.5rem;">
+        <button class="nav-link-btn" data-open-license style="color: var(--film-accent); font-size: 0.85rem;">🔒 Image License & Copyright</button>
+        <button class="nav-link-btn" data-open-contact style="font-size: 0.85rem;">✉ Contact</button>
+      </div>
+    </div>
+
+    <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--paper-500); padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+      © <span id="mobile-year">2026</span> Md. Raiyan Islam • All Rights Reserved
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- =========================================================================
+         Hero Section
+         ========================================================================= -->
+    <section class="hero-section">
+      <!-- Background Hero Stage -->
+      <div class="hero-bg-stage">
+        <img id="hero-bg-img" class="hero-bg-img" src="photos/display/night-watch-gantry.webp" alt="Hero frame" width="4032" height="2688" fetchpriority="high" draggable="false" />
+        <div class="hero-click-shield"></div>
+        <div class="hero-gradient-overlay"></div>
+        <div class="hero-radial-overlay"></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <!-- Top Pill -->
+        <div class="hero-top-pill">
+          <div class="pill-badge">
+            <span class="pill-badge-dot"></span>
+            <span>Street Photography Archive</span>
+          </div>
+
+          <button id="hero-view-frame-btn" class="pill-badge" style="cursor: pointer; transition: all 0.2s;" title="Inspect current frame">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            <span>View Frame</span>
+          </button>
+        </div>
+
+        <!-- Identity -->
+        <div class="hero-identity">
+          <h1 class="hero-title">Light & Dust</h1>
+          <p class="hero-tagline">Quiet frames from a loud city</p>
+          <button id="hero-explore-btn" class="hero-action-btn">View Photographs</button>
+        </div>
+
+        <!-- Bottom Telemetry & Carousel Controls -->
+        <div class="hero-bottom-bar">
+          <div class="hero-telemetry">
+            <div class="hero-meta-title-line">
+              <span id="hero-counter" style="font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--film-accent); letter-spacing: 0.15em;">01 / 08</span>
+              <span style="color: rgba(255,255,255,0.2);">•</span>
+              <h2 id="hero-photo-title" style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 500; color: var(--paper-100);">Frame Title</h2>
+            </div>
+            <div class="hero-exif-line">
+              <span id="hero-exif-shutter">1/250s</span>
+              <span>•</span>
+              <span id="hero-exif-aperture">f/1.7</span>
+              <span>•</span>
+              <span id="hero-exif-iso">ISO 64</span>
+              <span>•</span>
+              <span id="hero-exif-lens">24mm eq. Zeiss</span>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="hero-controls">
+            <button id="hero-play-pause-btn" class="control-btn-icon" aria-label="Pause or play auto slideshow">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            </button>
+            <div class="control-btn-group">
+              <button id="hero-prev-btn" aria-label="Previous photograph">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <button id="hero-next-btn" aria-label="Next photograph">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         35mm Negative Filmstrip Marquee
+         ========================================================================= -->
+    <section id="filmstrip-archive" class="filmstrip-section">
+      <div class="filmstrip-header">
+        <span style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--film-accent);">35mm Negative Strip</span>
+        <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--paper-500);">CLICK ANY FRAME TO INSPECT</span>
+      </div>
+
+      <div class="filmstrip-container">
+        <!-- Top Sprockets -->
+        <div class="filmstrip-sprockets">
+          <div class="sprocket-hole"><div class="sprocket-rect"></div><span style="font-family: var(--font-mono); font-size: 8px; color: rgba(230,153,71,0.7);">400TX • 1A</span></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div><span style="font-family: var(--font-mono); font-size: 8px; color: rgba(230,153,71,0.7);">400TX • 2A</span></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div><span style="font-family: var(--font-mono); font-size: 8px; color: rgba(230,153,71,0.7);">400TX • 3A</span></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div><span style="font-family: var(--font-mono); font-size: 8px; color: rgba(230,153,71,0.7);">400TX • 4A</span></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+        </div>
+
+        <!-- Scrolling Photos -->
+        <div id="filmstrip-scroll" class="filmstrip-scroll"></div>
+
+        <!-- Bottom Sprockets -->
+        <div class="filmstrip-sprockets" style="margin-top: 0.25rem;">
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+          <div class="sprocket-hole"><div class="sprocket-rect"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Six Chapters Showcase
+         ========================================================================= -->
+    <section id="collections" class="collections-section">
+      <div class="collections-header">
+        <div>
+          <span style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.25em; color: var(--film-accent);">COLLECTIONS</span>
+          <h2 style="font-family: var(--font-display); font-size: clamp(1.5rem, 4vw, 2.25rem); text-transform: uppercase; letter-spacing: 0.08em; color: var(--paper-50); font-weight: 700; margin-top: 0.25rem;">Six Chapters</h2>
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-400);">SELECT A COLLECTION TO FILTER GALLERY</div>
+      </div>
+
+      <div id="collections-grid" class="collections-grid"></div>
+    </section>
+
+    <!-- =========================================================================
+         Main Gallery Section
+         ========================================================================= -->
+    <section id="gallery" class="gallery-section">
+      <div class="gallery-header">
+        <div class="gallery-top-row">
+          <div class="gallery-title-group">
+            <h2 id="gallery-title" class="gallery-heading">All Photographs</h2>
+            <span id="gallery-count" class="gallery-count-pill">102</span>
+          </div>
+
+          <!-- Search + View Toggles -->
+          <div class="gallery-controls-group">
+            <div class="search-box">
+              <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input id="search-input" class="search-input" type="text" placeholder="Search..." />
+              <button id="search-clear-btn" class="search-clear-btn" style="display: none;" aria-label="Clear search">✕</button>
+            </div>
+
+            <div class="view-toggle-wrap">
+              <button id="view-toggle-masonry" class="view-toggle-btn active" title="Masonry View" aria-label="Masonry View">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="6" height="18" rx="1"/><rect x="14" y="3" width="6" height="10" rx="1"/><rect x="14" y="15" width="6" height="6" rx="1"/></svg>
+              </button>
+              <button id="view-toggle-grid" class="view-toggle-btn" title="Grid View" aria-label="Grid View">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Collection Filter Pills -->
+        <div id="collection-pills" class="collection-pills-scroll"></div>
+      </div>
+
+      <!-- Photo Cards Container -->
+      <div id="gallery-container" class="gallery-masonry"></div>
+
+      <!-- Infinite Scroll Sentinel / Load More Status -->
+      <div id="load-more-container" class="gallery-load-sentinel"></div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div style="max-width: 22rem; display: flex; flex-direction: column; gap: 0.75rem;">
+          <h3 style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: var(--paper-50);">Light & Dust</h3>
+          <p style="font-family: var(--font-sans); font-size: 0.82rem; color: var(--paper-400); letter-spacing: 0.03em;">Quiet frames from a loud city</p>
+          <div style="padding-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-500);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><span id="footer-total-photos">102</span> Photographs • Protected Archive</span>
+          </div>
+        </div>
+
+        <!-- Collections Links -->
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.75rem;">
+          <span style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--film-accent);">COLLECTIONS</span>
+          <div id="footer-collections-list" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.4rem 2rem;"></div>
+        </div>
+
+        <!-- Archive Links -->
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.75rem;">
+          <span style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--film-accent);">ARCHIVE</span>
+          <button class="nav-link-btn" data-open-license style="text-align: left;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <span>Image License & Rights</span>
+          </button>
+          <button class="nav-link-btn" data-open-contact style="text-align: left;">Contact</button>
+          <button class="nav-link-btn" data-nav-col="all" style="text-align: left;">All Works</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="footer-year">2026</span> Md. Raiyan Islam. All photographs are copyrighted. Downloading, scraping, or reproduction is strictly prohibited.
+        </div>
+        <button id="scroll-to-top-btn" class="header-status-badge">
+          <span>Top</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Lightbox Modal (Native HTML5 <dialog> with closedby="any")
+       ========================================================================= -->
+  <dialog id="lightbox-dialog" closedby="any" aria-labelledby="lightbox-title">
+    <div class="lightbox-shell">
+      <!-- Top Bar -->
+      <header class="lightbox-header">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span id="lightbox-counter" style="font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--film-accent);">#001 / 102</span>
+          <span style="color: rgba(255,255,255,0.2);">•</span>
+          <h2 id="lightbox-title" style="font-family: var(--font-sans); font-size: 1.1rem; font-weight: 500; color: var(--paper-50); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 18rem;">Frame Title</h2>
+          <span id="lightbox-badge" style="background: rgba(255,255,255,0.1); padding: 0.15rem 0.5rem; border-radius: 4px; font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; color: var(--paper-300);">Archive</span>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <button id="lightbox-zoom-btn" class="control-btn-icon" title="Toggle Zoom (Z)" aria-label="Toggle Zoom">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </button>
+          <button id="lightbox-info-btn" class="control-btn-icon" title="Toggle Camera Info (I)" aria-label="Toggle camera info" style="color: var(--film-accent);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </button>
+          <button id="lightbox-fullscreen-btn" class="control-btn-icon" title="Toggle Fullscreen (F)" aria-label="Toggle Fullscreen">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+          </button>
+          <button id="lightbox-close-btn" class="control-btn-icon" style="background: rgba(255,255,255,0.1); margin-left: 0.5rem;" title="Close (Esc)" aria-label="Close">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Center Stage -->
+      <div class="lightbox-stage-wrap">
+        <button id="lightbox-prev-btn" class="lightbox-nav-btn lightbox-nav-prev" aria-label="Previous photograph">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <div id="lightbox-stage" class="lightbox-stage">
+          <div id="lightbox-img-scaler" class="lightbox-img-scaler">
+            <img id="lightbox-img" src="" alt="Photo" draggable="false" />
+            <div class="card-click-shield"></div>
+          </div>
+        </div>
+
+        <button id="lightbox-next-btn" class="lightbox-nav-btn lightbox-nav-next" aria-label="Next photograph">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Sidebar Telemetry (Minimalist & Low Words) -->
+        <aside id="lightbox-sidebar" class="lightbox-sidebar">
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <div style="border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem;">
+              <span id="lb-collection-title" style="font-size: 0.65rem; color: var(--film-accent); text-transform: uppercase; letter-spacing: 0.15em;">Collection</span>
+              <h3 id="lb-photo-title" style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--paper-50); margin-top: 0.25rem;">Title</h3>
+            </div>
+
+            <!-- EXIF Grid -->
+            <div>
+              <span style="font-size: 0.65rem; color: var(--paper-500); text-transform: uppercase; letter-spacing: 0.15em;">EXIF TELEMETRY</span>
+              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; margin-top: 0.5rem;">
+                <div style="background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 4px;">
+                  <span style="font-size: 0.65rem; color: var(--paper-500);">SHUTTER</span>
+                  <div id="lb-shutter" style="color: var(--paper-100); font-weight: 600; margin-top: 0.2rem;">1/250s</div>
+                </div>
+                <div style="background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 4px;">
+                  <span style="font-size: 0.65rem; color: var(--paper-500);">APERTURE</span>
+                  <div id="lb-aperture" style="color: var(--paper-100); font-weight: 600; margin-top: 0.2rem;">f/1.7</div>
+                </div>
+                <div style="background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 4px;">
+                  <span style="font-size: 0.65rem; color: var(--paper-500);">ISO</span>
+                  <div id="lb-iso" style="color: var(--paper-100); font-weight: 600; margin-top: 0.2rem;">ISO 64</div>
+                </div>
+                <div style="background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 4px;">
+                  <span style="font-size: 0.65rem; color: var(--paper-500);">LENS</span>
+                  <div id="lb-lens" style="color: var(--paper-100); font-weight: 600; margin-top: 0.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">24mm eq.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hardware Details -->
+            <div style="background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.75rem; border-radius: 6px; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.7rem; color: var(--paper-400);">
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--paper-500);">CAMERA:</span>
+                <span id="lb-camera-model">Sony Xperia 5 IV</span>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--paper-500);">OPTICS:</span>
+                <span>Zeiss Vario-Tessar</span>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--paper-500);">DATE:</span>
+                <span id="lb-date">2026-08-24</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Copyright Shield -->
+          <div style="border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem; background: var(--bg-obsidian-900); border: 1px solid rgba(255,255,255,0.05); padding: 0.6rem; border-radius: 4px; color: var(--paper-400); font-size: 0.7rem;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>© Md. Raiyan Islam • All Rights Reserved</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Bottom Filmstrip Scrubber -->
+      <footer class="lightbox-footer">
+        <div style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--paper-500);">
+          ARROWS [← / →] • ZOOM [Z] • ESC TO CLOSE
+        </div>
+
+        <div id="lightbox-strip-thumbs" style="display: flex; align-items: center; gap: 0.5rem;"></div>
+
+        <div id="lightbox-frame-number" style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--film-accent);">
+          FRAME #001
+        </div>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- =========================================================================
+       Contact Modal (FormSubmit & Socials)
+       ========================================================================= -->
+  <dialog id="contact-dialog" class="modal-centered" closedby="any" aria-labelledby="contact-title">
+    <div class="modal-header">
+      <div>
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--film-accent);">GET IN TOUCH</span>
+        <h2 id="contact-title" style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; text-transform: uppercase; color: var(--paper-50); margin-top: 0.2rem;">Contact</h2>
+      </div>
+      <button id="contact-close-btn" class="modal-close-btn" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <!-- Direct Email & Instagram Quick Links -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
+      <a href="mailto:mdraiyanislam944@proton.me" style="display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem; border-radius: 0.75rem; background: var(--bg-obsidian-950); border: 1px solid var(--border-subtle); text-decoration: none; font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-300); transition: all 0.2s;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">mdraiyanislam944@proton.me</span>
+      </a>
+
+      <a href="https://instagram.com/raiyan._.clicks" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem; border-radius: 0.75rem; background: var(--bg-obsidian-950); border: 1px solid var(--border-subtle); text-decoration: none; font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-300); transition: all 0.2s;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        <span>@raiyan._.clicks</span>
+      </a>
+    </div>
+
+    <!-- Contact Form with FormSubmit -->
+    <form id="contact-form" action="https://formsubmit.co/mdraiyanislam944@proton.me" method="POST">
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+
+      <div class="form-group">
+        <label class="form-label" for="contact-name">Name</label>
+        <input id="contact-name" class="form-input" type="text" name="name" placeholder="Your name" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="contact-email">Email</label>
+        <input id="contact-email" class="form-input" type="email" name="email" placeholder="your@email.com" required />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="contact-message">Message</label>
+        <textarea id="contact-message" class="form-textarea" name="message" placeholder="Your message..." rows="4" required></textarea>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.25rem;">
+        <button type="button" class="load-more-btn" onclick="document.getElementById('contact-dialog').close()">Cancel</button>
+        <button type="submit" class="hero-action-btn" style="margin: 0; padding: 0.65rem 1.75rem;">Send Message</button>
+      </div>
+    </form>
+
+    <!-- Success Feedback View -->
+    <div id="contact-form-success" style="display: none; text-align: center; padding: 2rem 1rem;">
+      <div style="width: 2.5rem; height: 2.5rem; border-radius: 50%; background: var(--film-accent-dim); color: var(--film-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+      <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; text-transform: uppercase; color: var(--paper-50);">Message Sent</h3>
+      <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-400); margin-top: 0.5rem;">Thank you. Your message has been dispatched to mdraiyanislam944@proton.me.</p>
+      <button id="contact-success-close-btn" class="hero-action-btn" style="margin-top: 1.25rem; padding: 0.5rem 1.5rem;">Close</button>
+    </div>
+  </dialog>
+
+  <!-- =========================================================================
+       License & Copyright Modal
+       ========================================================================= -->
+  <dialog id="license-dialog" class="modal-centered" closedby="any" aria-labelledby="license-title">
+    <div class="modal-header">
+      <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--film-accent); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>IMAGE LICENSE & COPYRIGHT</span>
+      </div>
+      <button id="license-close-btn" class="modal-close-btn" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 1rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--paper-300); line-height: 1.6;">
+      <div style="padding: 1rem; border-radius: 0.75rem; background: var(--bg-obsidian-950); border: 1px solid var(--border-subtle);">
+        <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--paper-100); font-weight: 600; font-size: 0.85rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M15 9.354a4 4 0 1 0 0 5.292"/></svg>
+          <span>All Rights Reserved — Md. Raiyan Islam</span>
+        </div>
+        <p style="color: var(--paper-400); font-size: 0.7rem; margin-top: 0.4rem;">
+          All photographs featured on Light & Dust are the sole creative and intellectual property of Md. Raiyan Islam.
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--paper-400); font-size: 0.7rem;">
+        <p>• <strong>No Downloading:</strong> Saving, caching, or downloading full-resolution images for public or private use is strictly prohibited.</p>
+        <p>• <strong>No Reproduction:</strong> No image may be published, printed, broadcast, duplicated, or distributed without a written license.</p>
+        <p>• <strong>No AI Scraping:</strong> Automated scraping, data mining, or ingestion into machine learning datasets is explicitly forbidden.</p>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem; border-radius: 0.5rem; background: rgba(230, 153, 71, 0.1); border: 1px solid rgba(230, 153, 71, 0.25); color: #fde68a; font-size: 0.7rem;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Technical anti-theft protection and watermarking are active across this archive.</span>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
+      <button id="license-understand-btn" class="hero-action-btn" style="margin: 0; padding: 0.5rem 1.5rem;">I Understand</button>
+    </div>
+  </dialog>
+
+  <!-- =========================================================================
+       Toast Warning Notification
+       ========================================================================= -->
+  <div id="toast-alert" class="toast-alert" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--film-accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    <span id="toast-text">Protected Frame • © Md. Raiyan Islam. Downloading is disabled.</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/photos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
