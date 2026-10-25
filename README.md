@@ -5,7 +5,7 @@
 
 [![Author](https://img.shields.io/badge/Photographer-Md._Raiyan_Islam-e69947?style=flat-square)](https://instagram.com/raiyan._.clicks)
 [![Instagram](https://img.shields.io/badge/Instagram-@raiyan._.clicks-e69947?style=flat-square&logo=instagram)](https://instagram.com/raiyan._.clicks)
-[![License](https://img.shields.io/badge/License-All_Rights_Reserved-red?style=flat-square)](#copyright--license)
+[![License](https://img.shields.io/badge/License-MIT_%7C_All_Rights_Reserved-blue?style=flat-square)](#copyright--license)
 [![Tech Stack](https://img.shields.io/badge/Stack-Pure_HTML5_%2F_CSS3_%2F_Vanilla_JS-blue?style=flat-square)](#tech-stack)
 
 ---
@@ -220,8 +220,15 @@ Because **Light & Dust** is built with zero build steps and pure static assets, 
 
 ## Copyright & License
 
-All photographs published on **Light & Dust** are the exclusive artistic, creative, and intellectual property of **Md. Raiyan Islam**.
+This repository operates under a **split license** to keep the software open while strictly protecting the photographic assets.
+
+### 1. The Code (MIT License)
+The source code, HTML, CSS, and JavaScript structure of this website is open-source and licensed under the **MIT License**. You are free to use, copy, modify, and deploy the code structure for your own projects. See the `LICENSE` file for full terms.
+
+### 2. The Photographs (All Rights Reserved)
+All photographs, visual assets, and image files (including but not limited to `.jpg`, `.png`, and `.webp` files) published on **Light & Dust** or contained within this repository are the exclusive artistic, creative, and intellectual property of **Md. Raiyan Islam**.
 
 - **All Rights Reserved — Display Only**.
-- No photograph may be downloaded, scraped, reproduced, distributed, exhibited, or ingested into machine learning / AI datasets without prior written authorization.
+- The MIT License **does not** apply to these image assets.
+- No photograph may be downloaded, cached, scraped, reproduced, distributed, exhibited, or ingested into machine learning / AI datasets without prior written authorization.
 - For print inquiries or commercial licensing permissions, contact via the website form or email: [mdraiyanislam944@proton.me](mailto:mdraiyanislam944@proton.me).
