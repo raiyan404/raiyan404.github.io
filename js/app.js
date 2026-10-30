@@ -1042,6 +1042,8 @@
 
   if (elements.footerYear) elements.footerYear.textContent = new Date().getFullYear();
   if (elements.footerTotalPhotos) elements.footerTotalPhotos.textContent = PHOTOS.length;
+  const mobileAllPhotosBtn = document.querySelector('#mobile-drawer [data-nav-col="all"]');
+  if (mobileAllPhotosBtn) mobileAllPhotosBtn.textContent = `All Photographs (${PHOTOS.length})`;
 
   // Header Dropdown Collections Clicks
   document.querySelectorAll('[data-nav-col]').forEach((btn) => {

@@ -5,32 +5,32 @@
   {
     "id": "skies-and-light",
     "title": "Skies & Light",
-    "coverPhotoId": "photo-042"
+    "coverPhotoId": "photo-044"
   },
   {
     "id": "street-life",
     "title": "Street Life",
-    "coverPhotoId": "photo-078"
+    "coverPhotoId": "photo-080"
   },
   {
     "id": "urban-nature",
     "title": "Urban Nature",
-    "coverPhotoId": "photo-100"
+    "coverPhotoId": "photo-106"
   },
   {
     "id": "architecture-and-structure",
     "title": "Architecture & Structure",
-    "coverPhotoId": "photo-013"
+    "coverPhotoId": "photo-014"
   },
   {
     "id": "still-life-and-interiors",
     "title": "Still Life & Interiors",
-    "coverPhotoId": "photo-069"
+    "coverPhotoId": "photo-071"
   },
   {
     "id": "quiet-moments",
     "title": "Quiet Moments",
-    "coverPhotoId": "photo-029"
+    "coverPhotoId": "photo-031"
   }
 ];
   const PHOTOS = [
@@ -55,7 +55,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/160s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -84,7 +84,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/20s",
       "aperture": "f/2.4",
       "iso": "ISO 40",
@@ -113,7 +113,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/320s",
       "aperture": "f/2.4",
       "iso": "ISO 160",
@@ -142,7 +142,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/8000s",
       "aperture": "f/2.2",
       "iso": "ISO 320",
@@ -171,7 +171,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/3200s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -200,7 +200,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/100s",
       "aperture": "f/2.4",
       "iso": "ISO 200",
@@ -229,7 +229,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/3200s",
       "aperture": "f/1.7",
       "iso": "ISO 1000",
@@ -258,7 +258,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/250s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -268,6 +268,32 @@
   },
   {
     "id": "photo-009",
+    "filename": "the-amber-pavilion.jpg",
+    "displayUrl": "photos/display/the-amber-pavilion.webp",
+    "thumbUrl": "photos/thumbs/the-amber-pavilion.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JbAAAW+it5QpUIUM4rcXgAP70HJFJnyXLSMJUmQ8PsOp/ps7WzfRkaXdXxmh3Gc+uwvflFf+H7qf3xBnRKNO7UXG8vxmOZe9g/uAnklwFXq5ZRX9cAAAA",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "The Amber Pavilion",
+    "collection": "architecture-and-structure",
+    "tags": [
+      "architecture and structure"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/6.3",
+      "iso": "ISO 1000",
+      "focalLength": "28mm",
+      "date": "2026-10-30 19:54:14"
+    }
+  },
+  {
+    "id": "photo-010",
     "filename": "the-living-highrise.jpg",
     "displayUrl": "photos/display/the-living-highrise.webp",
     "thumbUrl": "photos/thumbs/the-living-highrise.webp",
@@ -287,7 +313,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/1600s",
       "aperture": "f/2.2",
       "iso": "ISO 320",
@@ -296,7 +322,7 @@
     }
   },
   {
-    "id": "photo-010",
+    "id": "photo-011",
     "filename": "the-silent-cloister.jpg",
     "displayUrl": "photos/display/the-silent-cloister.webp",
     "thumbUrl": "photos/thumbs/the-silent-cloister.webp",
@@ -316,7 +342,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/8000s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -325,7 +351,7 @@
     }
   },
   {
-    "id": "photo-011",
+    "id": "photo-012",
     "filename": "the-stone-guardian.jpg",
     "displayUrl": "photos/display/the-stone-guardian.webp",
     "thumbUrl": "photos/thumbs/the-stone-guardian.webp",
@@ -345,7 +371,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/2000s",
       "aperture": "f/2.2",
       "iso": "ISO 320",
@@ -354,7 +380,7 @@
     }
   },
   {
-    "id": "photo-012",
+    "id": "photo-013",
     "filename": "the-vertical-chasm.jpg",
     "displayUrl": "photos/display/the-vertical-chasm.webp",
     "thumbUrl": "photos/thumbs/the-vertical-chasm.webp",
@@ -374,7 +400,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/640s",
       "aperture": "f/2.2",
       "iso": "ISO 64",
@@ -383,7 +409,7 @@
     }
   },
   {
-    "id": "photo-013",
+    "id": "photo-014",
     "filename": "timber-slats-jungle.jpg",
     "displayUrl": "photos/display/timber-slats-jungle.webp",
     "thumbUrl": "photos/thumbs/timber-slats-jungle.webp",
@@ -403,7 +429,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/3200s",
       "aperture": "f/1.7",
       "iso": "ISO 1600",
@@ -412,7 +438,7 @@
     }
   },
   {
-    "id": "photo-014",
+    "id": "photo-015",
     "filename": "under-the-overpass.jpg",
     "displayUrl": "photos/display/under-the-overpass.webp",
     "thumbUrl": "photos/thumbs/under-the-overpass.webp",
@@ -432,7 +458,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/160s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -441,7 +467,7 @@
     }
   },
   {
-    "id": "photo-015",
+    "id": "photo-016",
     "filename": "wings-of-steel.jpg",
     "displayUrl": "photos/display/wings-of-steel.webp",
     "thumbUrl": "photos/thumbs/wings-of-steel.webp",
@@ -461,7 +487,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/1600s",
       "aperture": "f/2.4",
       "iso": "ISO 1000",
@@ -470,7 +496,7 @@
     }
   },
   {
-    "id": "photo-016",
+    "id": "photo-017",
     "filename": "bark-burl.jpg",
     "displayUrl": "photos/display/bark-burl.webp",
     "thumbUrl": "photos/thumbs/bark-burl.webp",
@@ -490,7 +516,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/100s",
       "aperture": "f/2.2",
       "iso": "ISO 320",
@@ -499,7 +525,7 @@
     }
   },
   {
-    "id": "photo-017",
+    "id": "photo-018",
     "filename": "cadence-on-copper.jpg",
     "displayUrl": "photos/display/cadence-on-copper.webp",
     "thumbUrl": "photos/thumbs/cadence-on-copper.webp",
@@ -519,7 +545,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/3200s",
       "aperture": "f/2.4",
       "iso": "ISO 800",
@@ -528,7 +554,7 @@
     }
   },
   {
-    "id": "photo-018",
+    "id": "photo-019",
     "filename": "golden-nap.jpg",
     "displayUrl": "photos/display/golden-nap.webp",
     "thumbUrl": "photos/thumbs/golden-nap.webp",
@@ -548,7 +574,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/25s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -557,7 +583,7 @@
     }
   },
   {
-    "id": "photo-019",
+    "id": "photo-020",
     "filename": "golden-water-haze.jpg",
     "displayUrl": "photos/display/golden-water-haze.webp",
     "thumbUrl": "photos/thumbs/golden-water-haze.webp",
@@ -577,7 +603,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/800s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -586,7 +612,7 @@
     }
   },
   {
-    "id": "photo-020",
+    "id": "photo-021",
     "filename": "guardian-of-the-roots.jpg",
     "displayUrl": "photos/display/guardian-of-the-roots.webp",
     "thumbUrl": "photos/thumbs/guardian-of-the-roots.webp",
@@ -606,7 +632,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/60s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -615,7 +641,7 @@
     }
   },
   {
-    "id": "photo-021",
+    "id": "photo-022",
     "filename": "liquid-silk.jpg",
     "displayUrl": "photos/display/liquid-silk.webp",
     "thumbUrl": "photos/thumbs/liquid-silk.webp",
@@ -635,7 +661,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/1000s",
       "aperture": "f/2.4",
       "iso": "ISO 1250",
@@ -644,7 +670,7 @@
     }
   },
   {
-    "id": "photo-022",
+    "id": "photo-023",
     "filename": "pavement-slumber.jpg",
     "displayUrl": "photos/display/pavement-slumber.webp",
     "thumbUrl": "photos/thumbs/pavement-slumber.webp",
@@ -664,7 +690,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/125s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -673,7 +699,7 @@
     }
   },
   {
-    "id": "photo-023",
+    "id": "photo-024",
     "filename": "perimeter-rust.jpg",
     "displayUrl": "photos/display/perimeter-rust.webp",
     "thumbUrl": "photos/thumbs/perimeter-rust.webp",
@@ -693,7 +719,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 200",
@@ -702,7 +728,7 @@
     }
   },
   {
-    "id": "photo-024",
+    "id": "photo-025",
     "filename": "sentinel-on-the-parapet.jpg",
     "displayUrl": "photos/display/sentinel-on-the-parapet.webp",
     "thumbUrl": "photos/thumbs/sentinel-on-the-parapet.webp",
@@ -722,7 +748,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/40000s",
       "aperture": "f/2.4",
       "iso": "ISO 1250",
@@ -731,7 +757,33 @@
     }
   },
   {
-    "id": "photo-025",
+    "id": "photo-026",
+    "filename": "slumber-in-the-sand.jpg",
+    "displayUrl": "photos/display/slumber-in-the-sand.webp",
+    "thumbUrl": "photos/thumbs/slumber-in-the-sand.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoYAAwAPu1iqU2ppaOiMAgBMB2JZwDE2CHhnrGnB6XU83JwAP7o3RPh62Gun7PGbDyZukM8IsnqajiYYhd+tUAAAAA=",
+    "width": 5452,
+    "height": 2757,
+    "aspectRatio": 1.978,
+    "orientation": "landscape",
+    "title": "Slumber in the Sand",
+    "collection": "quiet-moments",
+    "tags": [
+      "quiet moments"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/6.3",
+      "iso": "ISO 400",
+      "focalLength": "28mm",
+      "date": "2026-10-30 19:59:12"
+    }
+  },
+  {
+    "id": "photo-027",
     "filename": "tangle-of-wire-branch.jpg",
     "displayUrl": "photos/display/tangle-of-wire-branch.webp",
     "thumbUrl": "photos/thumbs/tangle-of-wire-branch.webp",
@@ -751,7 +803,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/250s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -760,7 +812,7 @@
     }
   },
   {
-    "id": "photo-026",
+    "id": "photo-028",
     "filename": "the-lone-sentinel.jpg",
     "displayUrl": "photos/display/the-lone-sentinel.webp",
     "thumbUrl": "photos/thumbs/the-lone-sentinel.webp",
@@ -780,7 +832,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/40000s",
       "aperture": "f/2.4",
       "iso": "ISO 1600",
@@ -789,7 +841,7 @@
     }
   },
   {
-    "id": "photo-027",
+    "id": "photo-029",
     "filename": "the-slumbering-stray.jpg",
     "displayUrl": "photos/display/the-slumbering-stray.webp",
     "thumbUrl": "photos/thumbs/the-slumbering-stray.webp",
@@ -809,7 +861,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/60s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -818,7 +870,7 @@
     }
   },
   {
-    "id": "photo-028",
+    "id": "photo-030",
     "filename": "withered-bouquet.jpg",
     "displayUrl": "photos/display/withered-bouquet.webp",
     "thumbUrl": "photos/thumbs/withered-bouquet.webp",
@@ -838,7 +890,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/2000s",
       "aperture": "f/1.7",
       "iso": "ISO 1600",
@@ -847,7 +899,7 @@
     }
   },
   {
-    "id": "photo-029",
+    "id": "photo-031",
     "filename": "yellow-truck-solitude.jpg",
     "displayUrl": "photos/display/yellow-truck-solitude.webp",
     "thumbUrl": "photos/thumbs/yellow-truck-solitude.webp",
@@ -867,7 +919,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/125s",
       "aperture": "f/2.4",
       "iso": "ISO 40",
@@ -876,7 +928,7 @@
     }
   },
   {
-    "id": "photo-030",
+    "id": "photo-032",
     "filename": "amber-reflections-at-sunset.jpg",
     "displayUrl": "photos/display/amber-reflections-at-sunset.webp",
     "thumbUrl": "photos/thumbs/amber-reflections-at-sunset.webp",
@@ -896,7 +948,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/10000s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -905,7 +957,7 @@
     }
   },
   {
-    "id": "photo-031",
+    "id": "photo-033",
     "filename": "anvil-at-17-46.jpg",
     "displayUrl": "photos/display/anvil-at-17-46.webp",
     "thumbUrl": "photos/thumbs/anvil-at-17-46.webp",
@@ -925,7 +977,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/4000s",
       "aperture": "f/2.4",
       "iso": "ISO 200",
@@ -934,7 +986,7 @@
     }
   },
   {
-    "id": "photo-032",
+    "id": "photo-034",
     "filename": "crescent-over-the-gantry.jpg",
     "displayUrl": "photos/display/crescent-over-the-gantry.webp",
     "thumbUrl": "photos/thumbs/crescent-over-the-gantry.webp",
@@ -954,7 +1006,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/500s",
       "aperture": "f/2.4",
       "iso": "ISO 40",
@@ -963,7 +1015,7 @@
     }
   },
   {
-    "id": "photo-033",
+    "id": "photo-035",
     "filename": "dusk-gradient.jpg",
     "displayUrl": "photos/display/dusk-gradient.webp",
     "thumbUrl": "photos/thumbs/dusk-gradient.webp",
@@ -983,7 +1035,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/1000s",
       "aperture": "f/2.2",
       "iso": "ISO 160",
@@ -992,7 +1044,7 @@
     }
   },
   {
-    "id": "photo-034",
+    "id": "photo-036",
     "filename": "ember-on-the-horizon.jpg",
     "displayUrl": "photos/display/ember-on-the-horizon.webp",
     "thumbUrl": "photos/thumbs/ember-on-the-horizon.webp",
@@ -1012,7 +1064,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/1000s",
       "aperture": "f/2.4",
       "iso": "ISO 160",
@@ -1021,7 +1073,7 @@
     }
   },
   {
-    "id": "photo-035",
+    "id": "photo-037",
     "filename": "flaming-cirrus.jpg",
     "displayUrl": "photos/display/flaming-cirrus.webp",
     "thumbUrl": "photos/thumbs/flaming-cirrus.webp",
@@ -1041,7 +1093,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/200s",
       "aperture": "f/1.7",
       "iso": "ISO 160",
@@ -1050,7 +1102,7 @@
     }
   },
   {
-    "id": "photo-036",
+    "id": "photo-038",
     "filename": "mackerel-sky.jpg",
     "displayUrl": "photos/display/mackerel-sky.webp",
     "thumbUrl": "photos/thumbs/mackerel-sky.webp",
@@ -1070,7 +1122,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/2500s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1079,7 +1131,7 @@
     }
   },
   {
-    "id": "photo-037",
+    "id": "photo-039",
     "filename": "monolith-cloud.jpg",
     "displayUrl": "photos/display/monolith-cloud.webp",
     "thumbUrl": "photos/thumbs/monolith-cloud.webp",
@@ -1099,7 +1151,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/8000s",
       "aperture": "f/2.4",
       "iso": "ISO 160",
@@ -1108,7 +1160,7 @@
     }
   },
   {
-    "id": "photo-038",
+    "id": "photo-040",
     "filename": "rooftop-canyon-sunset.jpg",
     "displayUrl": "photos/display/rooftop-canyon-sunset.webp",
     "thumbUrl": "photos/thumbs/rooftop-canyon-sunset.webp",
@@ -1128,7 +1180,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/500s",
       "aperture": "f/2.4",
       "iso": "ISO 64",
@@ -1137,7 +1189,7 @@
     }
   },
   {
-    "id": "photo-039",
+    "id": "photo-041",
     "filename": "solar-corona-over-concrete.jpg",
     "displayUrl": "photos/display/solar-corona-over-concrete.webp",
     "thumbUrl": "photos/thumbs/solar-corona-over-concrete.webp",
@@ -1157,7 +1209,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -1166,7 +1218,7 @@
     }
   },
   {
-    "id": "photo-040",
+    "id": "photo-042",
     "filename": "solar-flare-through-the-canopy.jpg",
     "displayUrl": "photos/display/solar-flare-through-the-canopy.webp",
     "thumbUrl": "photos/thumbs/solar-flare-through-the-canopy.webp",
@@ -1186,7 +1238,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -1195,7 +1247,7 @@
     }
   },
   {
-    "id": "photo-041",
+    "id": "photo-043",
     "filename": "swallows-in-the-tempest.jpg",
     "displayUrl": "photos/display/swallows-in-the-tempest.webp",
     "thumbUrl": "photos/thumbs/swallows-in-the-tempest.webp",
@@ -1215,7 +1267,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/40000s",
       "aperture": "f/2.4",
       "iso": "ISO 1600",
@@ -1224,7 +1276,7 @@
     }
   },
   {
-    "id": "photo-042",
+    "id": "photo-044",
     "filename": "the-burning-cloud.jpg",
     "displayUrl": "photos/display/the-burning-cloud.webp",
     "thumbUrl": "photos/thumbs/the-burning-cloud.webp",
@@ -1244,7 +1296,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/1000s",
       "aperture": "f/2.4",
       "iso": "ISO 64",
@@ -1253,7 +1305,7 @@
     }
   },
   {
-    "id": "photo-043",
+    "id": "photo-045",
     "filename": "alice-in-chains-jar-of-flies.jpg",
     "displayUrl": "photos/display/alice-in-chains-jar-of-flies.webp",
     "thumbUrl": "photos/thumbs/alice-in-chains-jar-of-flies.webp",
@@ -1273,7 +1325,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/60s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1282,7 +1334,7 @@
     }
   },
   {
-    "id": "photo-044",
+    "id": "photo-046",
     "filename": "amy-lee-fallen.jpg",
     "displayUrl": "photos/display/amy-lee-fallen.webp",
     "thumbUrl": "photos/thumbs/amy-lee-fallen.webp",
@@ -1302,7 +1354,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1311,7 +1363,7 @@
     }
   },
   {
-    "id": "photo-045",
+    "id": "photo-047",
     "filename": "blizzard-of-ozz.jpg",
     "displayUrl": "photos/display/blizzard-of-ozz.webp",
     "thumbUrl": "photos/thumbs/blizzard-of-ozz.webp",
@@ -1331,7 +1383,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1340,7 +1392,7 @@
     }
   },
   {
-    "id": "photo-046",
+    "id": "photo-048",
     "filename": "glass-clay-vinyl.jpg",
     "displayUrl": "photos/display/glass-clay-vinyl.webp",
     "thumbUrl": "photos/thumbs/glass-clay-vinyl.webp",
@@ -1360,7 +1412,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/30s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1369,7 +1421,7 @@
     }
   },
   {
-    "id": "photo-047",
+    "id": "photo-049",
     "filename": "groove-stylus.jpg",
     "displayUrl": "photos/display/groove-stylus.webp",
     "thumbUrl": "photos/thumbs/groove-stylus.webp",
@@ -1389,7 +1441,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/80s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1398,7 +1450,7 @@
     }
   },
   {
-    "id": "photo-048",
+    "id": "photo-050",
     "filename": "images-and-words.jpg",
     "displayUrl": "photos/display/images-and-words.webp",
     "thumbUrl": "photos/thumbs/images-and-words.webp",
@@ -1418,7 +1470,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/80s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1427,7 +1479,7 @@
     }
   },
   {
-    "id": "photo-049",
+    "id": "photo-051",
     "filename": "in-utero-angel.jpg",
     "displayUrl": "photos/display/in-utero-angel.webp",
     "thumbUrl": "photos/thumbs/in-utero-angel.webp",
@@ -1447,7 +1499,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/20s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1456,7 +1508,7 @@
     }
   },
   {
-    "id": "photo-050",
+    "id": "photo-052",
     "filename": "journey-escape.jpg",
     "displayUrl": "photos/display/journey-escape.webp",
     "thumbUrl": "photos/thumbs/journey-escape.webp",
@@ -1476,7 +1528,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/60s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1485,7 +1537,7 @@
     }
   },
   {
-    "id": "photo-051",
+    "id": "photo-053",
     "filename": "meddle-in-cyan-rust.jpg",
     "displayUrl": "photos/display/meddle-in-cyan-rust.webp",
     "thumbUrl": "photos/thumbs/meddle-in-cyan-rust.webp",
@@ -1505,7 +1557,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/30s",
       "aperture": "f/1.7",
       "iso": "ISO 640",
@@ -1514,7 +1566,7 @@
     }
   },
   {
-    "id": "photo-052",
+    "id": "photo-054",
     "filename": "nirvana-nevermind.jpg",
     "displayUrl": "photos/display/nirvana-nevermind.webp",
     "thumbUrl": "photos/thumbs/nirvana-nevermind.webp",
@@ -1534,7 +1586,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/13s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1543,7 +1595,7 @@
     }
   },
   {
-    "id": "photo-053",
+    "id": "photo-055",
     "filename": "obscured-by-clouds.jpg",
     "displayUrl": "photos/display/obscured-by-clouds.webp",
     "thumbUrl": "photos/thumbs/obscured-by-clouds.webp",
@@ -1563,7 +1615,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/20s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1572,7 +1624,7 @@
     }
   },
   {
-    "id": "photo-054",
+    "id": "photo-056",
     "filename": "parasomnia.jpg",
     "displayUrl": "photos/display/parasomnia.webp",
     "thumbUrl": "photos/thumbs/parasomnia.webp",
@@ -1592,7 +1644,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1601,7 +1653,7 @@
     }
   },
   {
-    "id": "photo-055",
+    "id": "photo-057",
     "filename": "pearl-jam-in-amber.jpg",
     "displayUrl": "photos/display/pearl-jam-in-amber.webp",
     "thumbUrl": "photos/thumbs/pearl-jam-in-amber.webp",
@@ -1621,7 +1673,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1630,7 +1682,7 @@
     }
   },
   {
-    "id": "photo-056",
+    "id": "photo-058",
     "filename": "pink-floyd-at-pompeii.jpg",
     "displayUrl": "photos/display/pink-floyd-at-pompeii.webp",
     "thumbUrl": "photos/thumbs/pink-floyd-at-pompeii.webp",
@@ -1650,7 +1702,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1659,7 +1711,7 @@
     }
   },
   {
-    "id": "photo-057",
+    "id": "photo-059",
     "filename": "piper-at-the-gates-of-dawn.jpg",
     "displayUrl": "photos/display/piper-at-the-gates-of-dawn.webp",
     "thumbUrl": "photos/thumbs/piper-at-the-gates-of-dawn.webp",
@@ -1679,7 +1731,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/15s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1688,7 +1740,7 @@
     }
   },
   {
-    "id": "photo-058",
+    "id": "photo-060",
     "filename": "prism-in-hand.jpg",
     "displayUrl": "photos/display/prism-in-hand.webp",
     "thumbUrl": "photos/thumbs/prism-in-hand.webp",
@@ -1708,7 +1760,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/25s",
       "aperture": "f/1.7",
       "iso": "ISO 1250",
@@ -1717,7 +1769,7 @@
     }
   },
   {
-    "id": "photo-059",
+    "id": "photo-061",
     "filename": "spinning-at-33-rpm.jpg",
     "displayUrl": "photos/display/spinning-at-33-rpm.webp",
     "thumbUrl": "photos/thumbs/spinning-at-33-rpm.webp",
@@ -1737,7 +1789,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1746,7 +1798,7 @@
     }
   },
   {
-    "id": "photo-060",
+    "id": "photo-062",
     "filename": "the-audiophile-sanctuary.jpg",
     "displayUrl": "photos/display/the-audiophile-sanctuary.webp",
     "thumbUrl": "photos/thumbs/the-audiophile-sanctuary.webp",
@@ -1766,7 +1818,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/15s",
       "aperture": "f/2.2",
       "iso": "ISO 800",
@@ -1775,7 +1827,7 @@
     }
   },
   {
-    "id": "photo-061",
+    "id": "photo-063",
     "filename": "the-doors-in-the-shadows.jpg",
     "displayUrl": "photos/display/the-doors-in-the-shadows.webp",
     "thumbUrl": "photos/thumbs/the-doors-in-the-shadows.webp",
@@ -1795,7 +1847,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1804,7 +1856,7 @@
     }
   },
   {
-    "id": "photo-062",
+    "id": "photo-064",
     "filename": "the-golden-shrine-of-sound.jpg",
     "displayUrl": "photos/display/the-golden-shrine-of-sound.webp",
     "thumbUrl": "photos/thumbs/the-golden-shrine-of-sound.webp",
@@ -1824,7 +1876,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 400",
@@ -1833,7 +1885,7 @@
     }
   },
   {
-    "id": "photo-063",
+    "id": "photo-065",
     "filename": "the-lizard-king.jpg",
     "displayUrl": "photos/display/the-lizard-king.webp",
     "thumbUrl": "photos/thumbs/the-lizard-king.webp",
@@ -1853,7 +1905,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/30s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -1862,7 +1914,7 @@
     }
   },
   {
-    "id": "photo-064",
+    "id": "photo-066",
     "filename": "the-rebel-poet.jpg",
     "displayUrl": "photos/display/the-rebel-poet.webp",
     "thumbUrl": "photos/thumbs/the-rebel-poet.webp",
@@ -1882,7 +1934,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/30s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1891,7 +1943,7 @@
     }
   },
   {
-    "id": "photo-065",
+    "id": "photo-067",
     "filename": "the-terracotta-pantheon.jpg",
     "displayUrl": "photos/display/the-terracotta-pantheon.webp",
     "thumbUrl": "photos/thumbs/the-terracotta-pantheon.webp",
@@ -1911,7 +1963,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/20s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -1920,7 +1972,7 @@
     }
   },
   {
-    "id": "photo-066",
+    "id": "photo-068",
     "filename": "the-wall-in-white.jpg",
     "displayUrl": "photos/display/the-wall-in-white.webp",
     "thumbUrl": "photos/thumbs/the-wall-in-white.webp",
@@ -1940,7 +1992,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/100s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1949,7 +2001,7 @@
     }
   },
   {
-    "id": "photo-067",
+    "id": "photo-069",
     "filename": "three-cheers-in-the-crates.jpg",
     "displayUrl": "photos/display/three-cheers-in-the-crates.webp",
     "thumbUrl": "photos/thumbs/three-cheers-in-the-crates.webp",
@@ -1969,7 +2021,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -1978,7 +2030,7 @@
     }
   },
   {
-    "id": "photo-068",
+    "id": "photo-070",
     "filename": "twin-lens-tonearm.jpg",
     "displayUrl": "photos/display/twin-lens-tonearm.webp",
     "thumbUrl": "photos/thumbs/twin-lens-tonearm.webp",
@@ -1998,7 +2050,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/50s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -2007,7 +2059,7 @@
     }
   },
   {
-    "id": "photo-069",
+    "id": "photo-071",
     "filename": "vinyl-madness.jpg",
     "displayUrl": "photos/display/vinyl-madness.webp",
     "thumbUrl": "photos/thumbs/vinyl-madness.webp",
@@ -2027,7 +2079,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/25s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -2036,7 +2088,7 @@
     }
   },
   {
-    "id": "photo-070",
+    "id": "photo-072",
     "filename": "wish-you-were-here.jpg",
     "displayUrl": "photos/display/wish-you-were-here.webp",
     "thumbUrl": "photos/thumbs/wish-you-were-here.webp",
@@ -2056,7 +2108,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/40s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2065,7 +2117,7 @@
     }
   },
   {
-    "id": "photo-071",
+    "id": "photo-073",
     "filename": "carriers-of-cold.jpg",
     "displayUrl": "photos/display/carriers-of-cold.webp",
     "thumbUrl": "photos/thumbs/carriers-of-cold.webp",
@@ -2085,7 +2137,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/3200s",
       "aperture": "f/2.4",
       "iso": "ISO 1000",
@@ -2094,7 +2146,7 @@
     }
   },
   {
-    "id": "photo-072",
+    "id": "photo-074",
     "filename": "daily-breadth.jpg",
     "displayUrl": "photos/display/daily-breadth.webp",
     "thumbUrl": "photos/thumbs/daily-breadth.webp",
@@ -2114,7 +2166,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/320s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -2123,7 +2175,7 @@
     }
   },
   {
-    "id": "photo-073",
+    "id": "photo-075",
     "filename": "stop-growth.jpg",
     "displayUrl": "photos/display/stop-growth.webp",
     "thumbUrl": "photos/thumbs/stop-growth.webp",
@@ -2143,7 +2195,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/8000s",
       "aperture": "f/2.4",
       "iso": "ISO 1600",
@@ -2152,7 +2204,7 @@
     }
   },
   {
-    "id": "photo-074",
+    "id": "photo-076",
     "filename": "the-balloon-seller.jpg",
     "displayUrl": "photos/display/the-balloon-seller.webp",
     "thumbUrl": "photos/thumbs/the-balloon-seller.webp",
@@ -2172,7 +2224,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/640s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -2181,7 +2233,7 @@
     }
   },
   {
-    "id": "photo-075",
+    "id": "photo-077",
     "filename": "the-noon-porter.jpg",
     "displayUrl": "photos/display/the-noon-porter.webp",
     "thumbUrl": "photos/thumbs/the-noon-porter.webp",
@@ -2201,7 +2253,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 1600",
@@ -2210,7 +2262,7 @@
     }
   },
   {
-    "id": "photo-076",
+    "id": "photo-078",
     "filename": "the-older-brother.jpg",
     "displayUrl": "photos/display/the-older-brother.webp",
     "thumbUrl": "photos/thumbs/the-older-brother.webp",
@@ -2230,7 +2282,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/200s",
       "aperture": "f/1.7",
       "iso": "ISO 800",
@@ -2239,7 +2291,7 @@
     }
   },
   {
-    "id": "photo-077",
+    "id": "photo-079",
     "filename": "tungsten-greens.jpg",
     "displayUrl": "photos/display/tungsten-greens.webp",
     "thumbUrl": "photos/thumbs/tungsten-greens.webp",
@@ -2259,7 +2311,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/160s",
       "aperture": "f/2.4",
       "iso": "ISO 800",
@@ -2268,7 +2320,7 @@
     }
   },
   {
-    "id": "photo-078",
+    "id": "photo-080",
     "filename": "university-avenue-at-dusk.jpg",
     "displayUrl": "photos/display/university-avenue-at-dusk.webp",
     "thumbUrl": "photos/thumbs/university-avenue-at-dusk.webp",
@@ -2288,7 +2340,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/6400s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -2297,7 +2349,7 @@
     }
   },
   {
-    "id": "photo-079",
+    "id": "photo-081",
     "filename": "canopy-bridge.jpg",
     "displayUrl": "photos/display/canopy-bridge.webp",
     "thumbUrl": "photos/thumbs/canopy-bridge.webp",
@@ -2317,7 +2369,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/10000s",
       "aperture": "f/1.7",
       "iso": "ISO 2500",
@@ -2326,7 +2378,7 @@
     }
   },
   {
-    "id": "photo-080",
+    "id": "photo-082",
     "filename": "cascading-balconies.jpg",
     "displayUrl": "photos/display/cascading-balconies.webp",
     "thumbUrl": "photos/thumbs/cascading-balconies.webp",
@@ -2346,7 +2398,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/1250s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -2355,7 +2407,7 @@
     }
   },
   {
-    "id": "photo-081",
+    "id": "photo-083",
     "filename": "epiphytes-louvers.jpg",
     "displayUrl": "photos/display/epiphytes-louvers.webp",
     "thumbUrl": "photos/thumbs/epiphytes-louvers.webp",
@@ -2375,7 +2427,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/400s",
       "aperture": "f/2.4",
       "iso": "ISO 1600",
@@ -2384,7 +2436,7 @@
     }
   },
   {
-    "id": "photo-082",
+    "id": "photo-084",
     "filename": "fractal-limbs.jpg",
     "displayUrl": "photos/display/fractal-limbs.webp",
     "thumbUrl": "photos/thumbs/fractal-limbs.webp",
@@ -2404,7 +2456,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/80s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2413,7 +2465,7 @@
     }
   },
   {
-    "id": "photo-083",
+    "id": "photo-085",
     "filename": "lantern-in-the-leaves.jpg",
     "displayUrl": "photos/display/lantern-in-the-leaves.webp",
     "thumbUrl": "photos/thumbs/lantern-in-the-leaves.webp",
@@ -2433,7 +2485,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/12000s",
       "aperture": "f/1.7",
       "iso": "ISO 2500",
@@ -2442,7 +2494,7 @@
     }
   },
   {
-    "id": "photo-084",
+    "id": "photo-086",
     "filename": "life-in-the-fracture.jpg",
     "displayUrl": "photos/display/life-in-the-fracture.webp",
     "thumbUrl": "photos/thumbs/life-in-the-fracture.webp",
@@ -2462,7 +2514,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/2000s",
       "aperture": "f/2.4",
       "iso": "ISO 1600",
@@ -2471,7 +2523,7 @@
     }
   },
   {
-    "id": "photo-085",
+    "id": "photo-087",
     "filename": "lily-pad-constellation.jpg",
     "displayUrl": "photos/display/lily-pad-constellation.webp",
     "thumbUrl": "photos/thumbs/lily-pad-constellation.webp",
@@ -2491,7 +2543,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/320s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -2500,7 +2552,7 @@
     }
   },
   {
-    "id": "photo-086",
+    "id": "photo-088",
     "filename": "looking-skyward.jpg",
     "displayUrl": "photos/display/looking-skyward.webp",
     "thumbUrl": "photos/thumbs/looking-skyward.webp",
@@ -2520,7 +2572,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/60s",
       "aperture": "f/2.2",
       "iso": "ISO 320",
@@ -2529,7 +2581,33 @@
     }
   },
   {
-    "id": "photo-087",
+    "id": "photo-089",
+    "filename": "nocturnal-bougainvillea.jpg",
+    "displayUrl": "photos/display/nocturnal-bougainvillea.webp",
+    "thumbUrl": "photos/thumbs/nocturnal-bougainvillea.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JagCdAywBdqZi1nCd/3pEq9pQAP7w34HFJ+z6ORh8JjTPNgr58VibV7Ek7//bbrWHEFmNG03gv1Ma8d1ifSpwRuZMxfXR7rqhbm0u3P2AHNo0DquOHsd2Fx/E1WfurhoMteAA",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "Nocturnal Bougainvillea",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/6.3",
+      "iso": "ISO 400",
+      "focalLength": "45mm",
+      "date": "2026-10-30 19:46:32"
+    }
+  },
+  {
+    "id": "photo-090",
     "filename": "steel-truss-living-roots.jpg",
     "displayUrl": "photos/display/steel-truss-living-roots.webp",
     "thumbUrl": "photos/thumbs/steel-truss-living-roots.webp",
@@ -2549,7 +2627,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/160s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2558,7 +2636,7 @@
     }
   },
   {
-    "id": "photo-088",
+    "id": "photo-091",
     "filename": "suhrawardy-canopy.jpg",
     "displayUrl": "photos/display/suhrawardy-canopy.webp",
     "thumbUrl": "photos/thumbs/suhrawardy-canopy.webp",
@@ -2578,7 +2656,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/500s",
       "aperture": "f/1.7",
       "iso": "ISO 64",
@@ -2587,7 +2665,7 @@
     }
   },
   {
-    "id": "photo-089",
+    "id": "photo-092",
     "filename": "sunlight-on-green-silk.jpg",
     "displayUrl": "photos/display/sunlight-on-green-silk.webp",
     "thumbUrl": "photos/thumbs/sunlight-on-green-silk.webp",
@@ -2607,7 +2685,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/400s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -2616,7 +2694,33 @@
     }
   },
   {
-    "id": "photo-090",
+    "id": "photo-093",
+    "filename": "tender-shoots.jpg",
+    "displayUrl": "photos/display/tender-shoots.webp",
+    "thumbUrl": "photos/thumbs/tender-shoots.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBDutoUSBT1BntrMAAP7r7koMUF6cIe9mh/fXS8lMcJ37hJ7syMFRO1V5JZ8M6WaGuiwbIIp2glL+Wjqz15FiY5uVNAZlXRsA1ke2SAAA",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "Tender Shoots",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/25s",
+      "aperture": "f/5.0",
+      "iso": "ISO 1000",
+      "focalLength": "25mm",
+      "date": "2026-10-30 17:11:57"
+    }
+  },
+  {
+    "id": "photo-094",
     "filename": "the-ancient-column.jpg",
     "displayUrl": "photos/display/the-ancient-column.webp",
     "thumbUrl": "photos/thumbs/the-ancient-column.webp",
@@ -2636,7 +2740,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/2000s",
       "aperture": "f/1.7",
       "iso": "ISO 1600",
@@ -2645,7 +2749,33 @@
     }
   },
   {
-    "id": "photo-091",
+    "id": "photo-095",
+    "filename": "the-arching-blade.jpg",
+    "displayUrl": "photos/display/the-arching-blade.webp",
+    "thumbUrl": "photos/thumbs/the-arching-blade.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC7ACIfIlVL8b9zMCHpn2iAAP7ytrAcRX54oUc5M9TBc7ZulIbvtoQLx1t35HIXr9z9EflbiV7lg/4OkcbQPWwdg8L0wDspel2BfO9pjHEaeTNfbq016QB/6+jFoVHvrim3DZG+EtUIT+1QSqfUX5ADIQAA",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "The Arching Blade",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/25s",
+      "aperture": "f/5.0",
+      "iso": "ISO 400",
+      "focalLength": "28mm",
+      "date": "2026-10-30 17:13:10"
+    }
+  },
+  {
+    "id": "photo-096",
     "filename": "the-climbing-ivy.jpg",
     "displayUrl": "photos/display/the-climbing-ivy.webp",
     "thumbUrl": "photos/thumbs/the-climbing-ivy.webp",
@@ -2665,7 +2795,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/250s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2674,7 +2804,7 @@
     }
   },
   {
-    "id": "photo-092",
+    "id": "photo-097",
     "filename": "the-iron-trellis.jpg",
     "displayUrl": "photos/display/the-iron-trellis.webp",
     "thumbUrl": "photos/thumbs/the-iron-trellis.webp",
@@ -2694,7 +2824,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 3200",
@@ -2703,7 +2833,7 @@
     }
   },
   {
-    "id": "photo-093",
+    "id": "photo-098",
     "filename": "the-knot-of-roots.jpg",
     "displayUrl": "photos/display/the-knot-of-roots.webp",
     "thumbUrl": "photos/thumbs/the-knot-of-roots.webp",
@@ -2723,7 +2853,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/40s",
       "aperture": "f/2.4",
       "iso": "ISO 320",
@@ -2732,7 +2862,7 @@
     }
   },
   {
-    "id": "photo-094",
+    "id": "photo-099",
     "filename": "the-living-curtain.jpg",
     "displayUrl": "photos/display/the-living-curtain.webp",
     "thumbUrl": "photos/thumbs/the-living-curtain.webp",
@@ -2752,7 +2882,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Telephoto Camera",
       "shutter": "1/50s",
       "aperture": "f/2.4",
       "iso": "ISO 64",
@@ -2761,7 +2891,7 @@
     }
   },
   {
-    "id": "photo-095",
+    "id": "photo-100",
     "filename": "the-mirrored-lake.jpg",
     "displayUrl": "photos/display/the-mirrored-lake.webp",
     "thumbUrl": "photos/thumbs/the-mirrored-lake.webp",
@@ -2781,7 +2911,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/1600s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2790,7 +2920,7 @@
     }
   },
   {
-    "id": "photo-096",
+    "id": "photo-101",
     "filename": "the-moored-swans.jpg",
     "displayUrl": "photos/display/the-moored-swans.webp",
     "thumbUrl": "photos/thumbs/the-moored-swans.webp",
@@ -2810,7 +2940,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/80s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2819,7 +2949,33 @@
     }
   },
   {
-    "id": "photo-097",
+    "id": "photo-102",
+    "filename": "the-pale-blossom.jpg",
+    "displayUrl": "photos/display/the-pale-blossom.webp",
+    "thumbUrl": "photos/thumbs/the-pale-blossom.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgC7MoACtA/wiGRrStFIg5FsAAD+8N9ZR6P/AtFyNjWh0/UhI9hGjU4b5RrvAA25Ml190kRAK7JpTHb0rEfIGFzvErDAnDXPIBjQ8Yy7u0/YOAAAAA==",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "The Pale Blossom",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/6.3",
+      "iso": "ISO 400",
+      "focalLength": "45mm",
+      "date": "2026-10-30 19:46:53"
+    }
+  },
+  {
+    "id": "photo-103",
     "filename": "the-sprawling-canopy.jpg",
     "displayUrl": "photos/display/the-sprawling-canopy.webp",
     "thumbUrl": "photos/thumbs/the-sprawling-canopy.webp",
@@ -2839,7 +2995,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/80s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2848,7 +3004,7 @@
     }
   },
   {
-    "id": "photo-098",
+    "id": "photo-104",
     "filename": "the-weeping-banyan.jpg",
     "displayUrl": "photos/display/the-weeping-banyan.webp",
     "thumbUrl": "photos/thumbs/the-weeping-banyan.webp",
@@ -2868,7 +3024,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/60s",
       "aperture": "f/1.7",
       "iso": "ISO 320",
@@ -2877,7 +3033,7 @@
     }
   },
   {
-    "id": "photo-099",
+    "id": "photo-105",
     "filename": "urban-taro-fields.jpg",
     "displayUrl": "photos/display/urban-taro-fields.webp",
     "thumbUrl": "photos/thumbs/urban-taro-fields.webp",
@@ -2897,7 +3053,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 3200",
@@ -2906,7 +3062,7 @@
     }
   },
   {
-    "id": "photo-100",
+    "id": "photo-106",
     "filename": "veil-of-the-banyan.jpg",
     "displayUrl": "photos/display/veil-of-the-banyan.webp",
     "thumbUrl": "photos/thumbs/veil-of-the-banyan.webp",
@@ -2926,7 +3082,7 @@
     "featured": true,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Ultrawide Camera",
       "shutter": "1/800s",
       "aperture": "f/2.2",
       "iso": "ISO 1600",
@@ -2935,7 +3091,7 @@
     }
   },
   {
-    "id": "photo-101",
+    "id": "photo-107",
     "filename": "wild-jasmine-grass.jpg",
     "displayUrl": "photos/display/wild-jasmine-grass.webp",
     "thumbUrl": "photos/thumbs/wild-jasmine-grass.webp",
@@ -2955,7 +3111,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/16000s",
       "aperture": "f/1.7",
       "iso": "ISO 1250",
@@ -2964,7 +3120,7 @@
     }
   },
   {
-    "id": "photo-102",
+    "id": "photo-108",
     "filename": "yellow-blossoms-on-iron.jpg",
     "displayUrl": "photos/display/yellow-blossoms-on-iron.webp",
     "thumbUrl": "photos/thumbs/yellow-blossoms-on-iron.webp",
@@ -2984,7 +3140,7 @@
     "featured": false,
     "camera": {
       "model": "Sony Xperia 5 IV (SO-54C)",
-      "lens": "Zeiss Vario-Tessar T*",
+      "lens": "Sony Xperia 5 IV Wide Camera",
       "shutter": "1/30s",
       "aperture": "f/1.7",
       "iso": "ISO 320",

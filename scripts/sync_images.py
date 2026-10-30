@@ -33,6 +33,17 @@ def normalize_collection_name(name):
             return cid
     return "quiet-moments"
 
+def format_title(base_name):
+    words = base_name.replace('_', ' ').replace('-', ' ').split()
+    lower_words = {'in', 'the', 'of', 'and', 'at', 'on', 'to', 'for', 'by', 'with', 'a', 'an'}
+    titled = []
+    for i, w in enumerate(words):
+        if i == 0 or w.lower() not in lower_words:
+            titled.append(w.capitalize())
+        else:
+            titled.append(w.lower())
+    return ' '.join(titled)
+
 existing_data_map = {}
 json_path = 'js/photosData.json'
 if not os.path.exists(json_path) and os.path.exists('src/data/photosData.json'):
@@ -109,14 +120,28 @@ for folder_name in sorted(subfolders):
             iso = exif_data.get('ISOSpeedRatings')
             iso_str = f"ISO {iso}" if iso else "ISO 64"
             
+            lens_model = exif_data.get('LensModel')
+            if not lens_model:
+                if 'Sony' in camera_model or 'SO-54C' in camera_model:
+                    lens_model = "Zeiss Vario-Tessar T*"
+                else:
+                    lens_model = "Standard Lens"
+            elif 'EF-M' in str(lens_model) and not str(lens_model).startswith('Canon'):
+                lens_model = f"Canon {lens_model}"
+            
             focal_len = exif_data.get('FocalLength')
             if focal_len:
                 try:
-                    focal_str = f"{float(focal_len):.1f}mm (Zeiss)"
+                    fl_val = float(focal_len)
+                    fl_disp = f"{int(fl_val)}mm" if fl_val.is_integer() else f"{fl_val:.1f}mm"
+                    if 'Sony' in camera_model or 'SO-54C' in camera_model:
+                        focal_str = f"{fl_disp} (Zeiss)"
+                    else:
+                        focal_str = fl_disp
                 except:
                     focal_str = str(focal_len)
             else:
-                focal_str = "24mm eq. Zeiss"
+                focal_str = "24mm eq. Zeiss" if ('Sony' in camera_model or 'SO-54C' in camera_model) else "24mm"
                 
             date_str = str(exif_data.get('DateTimeOriginal', '2026-08-24 18:00:00'))
             if len(date_str) >= 10 and date_str[4] == ':' and date_str[7] == ':':
@@ -144,7 +169,7 @@ for folder_name in sorted(subfolders):
             existing = existing_data_map.get(fname, {})
             title = existing.get('title')
             if not title:
-                title = base_name.replace('_', ' ').replace('-', ' ').title()
+                title = format_title(base_name)
                 
             tags = existing.get('tags', [collection_id.replace('-', ' ')])
             featured = existing.get('featured', False)
@@ -165,7 +190,7 @@ for folder_name in sorted(subfolders):
                 "featured": featured,
                 "camera": {
                     "model": camera_model,
-                    "lens": "Zeiss Vario-Tessar T*",
+                    "lens": str(lens_model),
                     "shutter": shutter,
                     "aperture": aperture,
                     "iso": iso_str,
