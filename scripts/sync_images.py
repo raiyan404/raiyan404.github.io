@@ -97,6 +97,8 @@ for folder_name in sorted(subfolders):
             camera_model = str(exif_data.get('Model', 'Sony Xperia 5 IV (SO-54C)'))
             if camera_model == 'SO-54C':
                 camera_model = 'Sony Xperia 5 IV (SO-54C)'
+            elif camera_model in ['EOS M50', 'Canon EOS M50'] or ('EOS' in camera_model and 'Canon' not in camera_model):
+                camera_model = f"Canon {camera_model}" if not camera_model.startswith('Canon') else camera_model
                 
             exposure = exif_data.get('ExposureTime')
             if exposure:

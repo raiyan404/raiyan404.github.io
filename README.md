@@ -20,7 +20,7 @@ Zero build steps. Zero `node_modules`. Zero framework bloat. Double-click `index
 
 ## The 6 Photographic Chapters
 
-The archive contains 108 curated frames organized into six distinct collections:
+The archive contains 111 curated frames organized into six distinct collections:
 
 1. **Skies & Light** — Dramatic sunsets, silhouettes, clouds, golden hour, and atmospheric skies.
 2. **Street Life** — Candid moments of people, markets, daily life, children, vendors, and urban energy.

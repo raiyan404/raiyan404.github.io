@@ -10,12 +10,12 @@
   {
     "id": "street-life",
     "title": "Street Life",
-    "coverPhotoId": "photo-080"
+    "coverPhotoId": "photo-081"
   },
   {
     "id": "urban-nature",
     "title": "Urban Nature",
-    "coverPhotoId": "photo-106"
+    "coverPhotoId": "photo-109"
   },
   {
     "id": "architecture-and-structure",
@@ -2292,6 +2292,39 @@
   },
   {
     "id": "photo-079",
+    "filename": "the-street-welder.jpg",
+    "displayUrl": "photos/display/the-street-welder.webp",
+    "thumbUrl": "photos/thumbs/the-street-welder.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JQBYdgvZoVc36um/IEqEAAP7s1+hPgsuT8Yf8tsRyaK90yDJl3ivzWvtQJdOwjGc8deXjo+U96ntfkRqd0kV8HP/XSfA1P4xtXAiGn9oDgfD7cte8KUwNcUQ3MugA",
+    "width": 4869,
+    "height": 3113,
+    "aspectRatio": 1.564,
+    "orientation": "landscape",
+    "title": "The Street Welder",
+    "collection": "street-life",
+    "tags": [
+      "street life",
+      "welder",
+      "sparks",
+      "arc light",
+      "candid",
+      "night",
+      "labor",
+      "uttara"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/5.6",
+      "iso": "ISO 400",
+      "focalLength": "17mm",
+      "date": "2026-11-01 17:14:46"
+    }
+  },
+  {
+    "id": "photo-080",
     "filename": "tungsten-greens.jpg",
     "displayUrl": "photos/display/tungsten-greens.webp",
     "thumbUrl": "photos/thumbs/tungsten-greens.webp",
@@ -2320,7 +2353,7 @@
     }
   },
   {
-    "id": "photo-080",
+    "id": "photo-081",
     "filename": "university-avenue-at-dusk.jpg",
     "displayUrl": "photos/display/university-avenue-at-dusk.webp",
     "thumbUrl": "photos/thumbs/university-avenue-at-dusk.webp",
@@ -2349,7 +2382,7 @@
     }
   },
   {
-    "id": "photo-081",
+    "id": "photo-082",
     "filename": "canopy-bridge.jpg",
     "displayUrl": "photos/display/canopy-bridge.webp",
     "thumbUrl": "photos/thumbs/canopy-bridge.webp",
@@ -2378,7 +2411,7 @@
     }
   },
   {
-    "id": "photo-082",
+    "id": "photo-083",
     "filename": "cascading-balconies.jpg",
     "displayUrl": "photos/display/cascading-balconies.webp",
     "thumbUrl": "photos/thumbs/cascading-balconies.webp",
@@ -2407,7 +2440,7 @@
     }
   },
   {
-    "id": "photo-083",
+    "id": "photo-084",
     "filename": "epiphytes-louvers.jpg",
     "displayUrl": "photos/display/epiphytes-louvers.webp",
     "thumbUrl": "photos/thumbs/epiphytes-louvers.webp",
@@ -2436,7 +2469,7 @@
     }
   },
   {
-    "id": "photo-084",
+    "id": "photo-085",
     "filename": "fractal-limbs.jpg",
     "displayUrl": "photos/display/fractal-limbs.webp",
     "thumbUrl": "photos/thumbs/fractal-limbs.webp",
@@ -2465,7 +2498,7 @@
     }
   },
   {
-    "id": "photo-085",
+    "id": "photo-086",
     "filename": "lantern-in-the-leaves.jpg",
     "displayUrl": "photos/display/lantern-in-the-leaves.webp",
     "thumbUrl": "photos/thumbs/lantern-in-the-leaves.webp",
@@ -2494,7 +2527,7 @@
     }
   },
   {
-    "id": "photo-086",
+    "id": "photo-087",
     "filename": "life-in-the-fracture.jpg",
     "displayUrl": "photos/display/life-in-the-fracture.webp",
     "thumbUrl": "photos/thumbs/life-in-the-fracture.webp",
@@ -2523,7 +2556,7 @@
     }
   },
   {
-    "id": "photo-087",
+    "id": "photo-088",
     "filename": "lily-pad-constellation.jpg",
     "displayUrl": "photos/display/lily-pad-constellation.webp",
     "thumbUrl": "photos/thumbs/lily-pad-constellation.webp",
@@ -2552,7 +2585,7 @@
     }
   },
   {
-    "id": "photo-088",
+    "id": "photo-089",
     "filename": "looking-skyward.jpg",
     "displayUrl": "photos/display/looking-skyward.webp",
     "thumbUrl": "photos/thumbs/looking-skyward.webp",
@@ -2581,7 +2614,7 @@
     }
   },
   {
-    "id": "photo-089",
+    "id": "photo-090",
     "filename": "nocturnal-bougainvillea.jpg",
     "displayUrl": "photos/display/nocturnal-bougainvillea.webp",
     "thumbUrl": "photos/thumbs/nocturnal-bougainvillea.webp",
@@ -2607,7 +2640,7 @@
     }
   },
   {
-    "id": "photo-090",
+    "id": "photo-091",
     "filename": "steel-truss-living-roots.jpg",
     "displayUrl": "photos/display/steel-truss-living-roots.webp",
     "thumbUrl": "photos/thumbs/steel-truss-living-roots.webp",
@@ -2636,7 +2669,7 @@
     }
   },
   {
-    "id": "photo-091",
+    "id": "photo-092",
     "filename": "suhrawardy-canopy.jpg",
     "displayUrl": "photos/display/suhrawardy-canopy.webp",
     "thumbUrl": "photos/thumbs/suhrawardy-canopy.webp",
@@ -2665,7 +2698,7 @@
     }
   },
   {
-    "id": "photo-092",
+    "id": "photo-093",
     "filename": "sunlight-on-green-silk.jpg",
     "displayUrl": "photos/display/sunlight-on-green-silk.webp",
     "thumbUrl": "photos/thumbs/sunlight-on-green-silk.webp",
@@ -2694,7 +2727,38 @@
     }
   },
   {
-    "id": "photo-093",
+    "id": "photo-094",
+    "filename": "sunlit-bougainvillea.jpg",
+    "displayUrl": "photos/display/sunlit-bougainvillea.webp",
+    "thumbUrl": "photos/thumbs/sunlit-bougainvillea.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgC7AAxGmEDiVOFQlOMfAAD+uiXuvjraURlNc1HPXSwflYObjLcKTB6HVXEwJCry8ma7e+Zdj/xZqiglwZwR5ESgCIbNU+5SCwOrVfDrIeLJxVMApRwIoicx5UI+uI0g3faOkzmwvt4pUAA=",
+    "width": 6016,
+    "height": 4012,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "Sunlit Bougainvillea",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature",
+      "bougainvillea",
+      "flora",
+      "blossoms",
+      "golden hour",
+      "warmth"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/5.6",
+      "iso": "ISO 400",
+      "focalLength": "15mm",
+      "date": "2026-11-01 17:12:30"
+    }
+  },
+  {
+    "id": "photo-095",
     "filename": "tender-shoots.jpg",
     "displayUrl": "photos/display/tender-shoots.webp",
     "thumbUrl": "photos/thumbs/tender-shoots.webp",
@@ -2720,7 +2784,7 @@
     }
   },
   {
-    "id": "photo-094",
+    "id": "photo-096",
     "filename": "the-ancient-column.jpg",
     "displayUrl": "photos/display/the-ancient-column.webp",
     "thumbUrl": "photos/thumbs/the-ancient-column.webp",
@@ -2749,7 +2813,7 @@
     }
   },
   {
-    "id": "photo-095",
+    "id": "photo-097",
     "filename": "the-arching-blade.jpg",
     "displayUrl": "photos/display/the-arching-blade.webp",
     "thumbUrl": "photos/thumbs/the-arching-blade.webp",
@@ -2775,7 +2839,7 @@
     }
   },
   {
-    "id": "photo-096",
+    "id": "photo-098",
     "filename": "the-climbing-ivy.jpg",
     "displayUrl": "photos/display/the-climbing-ivy.webp",
     "thumbUrl": "photos/thumbs/the-climbing-ivy.webp",
@@ -2804,7 +2868,7 @@
     }
   },
   {
-    "id": "photo-097",
+    "id": "photo-099",
     "filename": "the-iron-trellis.jpg",
     "displayUrl": "photos/display/the-iron-trellis.webp",
     "thumbUrl": "photos/thumbs/the-iron-trellis.webp",
@@ -2833,7 +2897,7 @@
     }
   },
   {
-    "id": "photo-098",
+    "id": "photo-100",
     "filename": "the-knot-of-roots.jpg",
     "displayUrl": "photos/display/the-knot-of-roots.webp",
     "thumbUrl": "photos/thumbs/the-knot-of-roots.webp",
@@ -2862,7 +2926,7 @@
     }
   },
   {
-    "id": "photo-099",
+    "id": "photo-101",
     "filename": "the-living-curtain.jpg",
     "displayUrl": "photos/display/the-living-curtain.webp",
     "thumbUrl": "photos/thumbs/the-living-curtain.webp",
@@ -2891,7 +2955,7 @@
     }
   },
   {
-    "id": "photo-100",
+    "id": "photo-102",
     "filename": "the-mirrored-lake.jpg",
     "displayUrl": "photos/display/the-mirrored-lake.webp",
     "thumbUrl": "photos/thumbs/the-mirrored-lake.webp",
@@ -2920,7 +2984,7 @@
     }
   },
   {
-    "id": "photo-101",
+    "id": "photo-103",
     "filename": "the-moored-swans.jpg",
     "displayUrl": "photos/display/the-moored-swans.webp",
     "thumbUrl": "photos/thumbs/the-moored-swans.webp",
@@ -2949,7 +3013,7 @@
     }
   },
   {
-    "id": "photo-102",
+    "id": "photo-104",
     "filename": "the-pale-blossom.jpg",
     "displayUrl": "photos/display/the-pale-blossom.webp",
     "thumbUrl": "photos/thumbs/the-pale-blossom.webp",
@@ -2975,7 +3039,38 @@
     }
   },
   {
-    "id": "photo-103",
+    "id": "photo-105",
+    "filename": "the-solitary-jasmine.jpg",
+    "displayUrl": "photos/display/the-solitary-jasmine.webp",
+    "thumbUrl": "photos/thumbs/the-solitary-jasmine.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBdgBD4edzYXvWm1hUi1n5GAAP7yqpQJh4JqGC3AkxBJ1Rq3quD1pP7qOY3tNPYku/cCqK/SJJV6yP6OHeQsEzu+1fsCVbXoZrtMkAAAAA==",
+    "width": 6000,
+    "height": 4000,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "The Solitary Jasmine",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature",
+      "jasmine",
+      "flora",
+      "minimal",
+      "foliage",
+      "white blossom"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/5.6",
+      "iso": "ISO 400",
+      "focalLength": "17mm",
+      "date": "2026-11-01 17:12:55"
+    }
+  },
+  {
+    "id": "photo-106",
     "filename": "the-sprawling-canopy.jpg",
     "displayUrl": "photos/display/the-sprawling-canopy.webp",
     "thumbUrl": "photos/thumbs/the-sprawling-canopy.webp",
@@ -3004,7 +3099,7 @@
     }
   },
   {
-    "id": "photo-104",
+    "id": "photo-107",
     "filename": "the-weeping-banyan.jpg",
     "displayUrl": "photos/display/the-weeping-banyan.webp",
     "thumbUrl": "photos/thumbs/the-weeping-banyan.webp",
@@ -3033,7 +3128,7 @@
     }
   },
   {
-    "id": "photo-105",
+    "id": "photo-108",
     "filename": "urban-taro-fields.jpg",
     "displayUrl": "photos/display/urban-taro-fields.webp",
     "thumbUrl": "photos/thumbs/urban-taro-fields.webp",
@@ -3062,7 +3157,7 @@
     }
   },
   {
-    "id": "photo-106",
+    "id": "photo-109",
     "filename": "veil-of-the-banyan.jpg",
     "displayUrl": "photos/display/veil-of-the-banyan.webp",
     "thumbUrl": "photos/thumbs/veil-of-the-banyan.webp",
@@ -3091,7 +3186,7 @@
     }
   },
   {
-    "id": "photo-107",
+    "id": "photo-110",
     "filename": "wild-jasmine-grass.jpg",
     "displayUrl": "photos/display/wild-jasmine-grass.webp",
     "thumbUrl": "photos/thumbs/wild-jasmine-grass.webp",
@@ -3120,7 +3215,7 @@
     }
   },
   {
-    "id": "photo-108",
+    "id": "photo-111",
     "filename": "yellow-blossoms-on-iron.jpg",
     "displayUrl": "photos/display/yellow-blossoms-on-iron.webp",
     "thumbUrl": "photos/thumbs/yellow-blossoms-on-iron.webp",
