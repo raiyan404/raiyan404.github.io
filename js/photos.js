@@ -5,17 +5,17 @@
   {
     "id": "skies-and-light",
     "title": "Skies & Light",
-    "coverPhotoId": "photo-044"
+    "coverPhotoId": "photo-045"
   },
   {
     "id": "street-life",
     "title": "Street Life",
-    "coverPhotoId": "photo-085"
+    "coverPhotoId": "photo-086"
   },
   {
     "id": "urban-nature",
     "title": "Urban Nature",
-    "coverPhotoId": "photo-113"
+    "coverPhotoId": "photo-115"
   },
   {
     "id": "architecture-and-structure",
@@ -25,12 +25,12 @@
   {
     "id": "still-life-and-interiors",
     "title": "Still Life & Interiors",
-    "coverPhotoId": "photo-071"
+    "coverPhotoId": "photo-072"
   },
   {
     "id": "quiet-moments",
     "title": "Quiet Moments",
-    "coverPhotoId": "photo-031"
+    "coverPhotoId": "photo-032"
   }
 ];
   const PHOTOS = [
@@ -813,6 +813,39 @@
   },
   {
     "id": "photo-028",
+    "filename": "the-amber-gaze.jpg",
+    "displayUrl": "photos/display/the-amber-gaze.webp",
+    "thumbUrl": "photos/thumbs/the-amber-gaze.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABAAPu1krU6ppaSiMAgBMB2JYwDCoIjDA4ALhQKMEBDXTmMAAP7w0lcFaxEPqMWjxxdN1vhGIAvUb9rU4VPJYLR/zXUnnyVtPe+M9myS6aKBtSZbwaFtYPJkqXlNkagAAA==",
+    "width": 6016,
+    "height": 4012,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "The Amber Gaze",
+    "collection": "quiet-moments",
+    "tags": [
+      "quiet moments",
+      "cat",
+      "feline",
+      "gaze",
+      "amber eyes",
+      "animal",
+      "solitude",
+      "candid"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/25s",
+      "aperture": "f/6.3",
+      "iso": "ISO 500",
+      "focalLength": "42mm",
+      "date": "2026-11-07 18:23:00"
+    }
+  },
+  {
+    "id": "photo-029",
     "filename": "the-lone-sentinel.jpg",
     "displayUrl": "photos/display/the-lone-sentinel.webp",
     "thumbUrl": "photos/thumbs/the-lone-sentinel.webp",
@@ -841,7 +874,7 @@
     }
   },
   {
-    "id": "photo-029",
+    "id": "photo-030",
     "filename": "the-slumbering-stray.jpg",
     "displayUrl": "photos/display/the-slumbering-stray.webp",
     "thumbUrl": "photos/thumbs/the-slumbering-stray.webp",
@@ -870,7 +903,7 @@
     }
   },
   {
-    "id": "photo-030",
+    "id": "photo-031",
     "filename": "withered-bouquet.jpg",
     "displayUrl": "photos/display/withered-bouquet.webp",
     "thumbUrl": "photos/thumbs/withered-bouquet.webp",
@@ -899,7 +932,7 @@
     }
   },
   {
-    "id": "photo-031",
+    "id": "photo-032",
     "filename": "yellow-truck-solitude.jpg",
     "displayUrl": "photos/display/yellow-truck-solitude.webp",
     "thumbUrl": "photos/thumbs/yellow-truck-solitude.webp",
@@ -928,7 +961,7 @@
     }
   },
   {
-    "id": "photo-032",
+    "id": "photo-033",
     "filename": "amber-reflections-at-sunset.jpg",
     "displayUrl": "photos/display/amber-reflections-at-sunset.webp",
     "thumbUrl": "photos/thumbs/amber-reflections-at-sunset.webp",
@@ -957,7 +990,7 @@
     }
   },
   {
-    "id": "photo-033",
+    "id": "photo-034",
     "filename": "anvil-at-17-46.jpg",
     "displayUrl": "photos/display/anvil-at-17-46.webp",
     "thumbUrl": "photos/thumbs/anvil-at-17-46.webp",
@@ -986,7 +1019,7 @@
     }
   },
   {
-    "id": "photo-034",
+    "id": "photo-035",
     "filename": "crescent-over-the-gantry.jpg",
     "displayUrl": "photos/display/crescent-over-the-gantry.webp",
     "thumbUrl": "photos/thumbs/crescent-over-the-gantry.webp",
@@ -1015,7 +1048,7 @@
     }
   },
   {
-    "id": "photo-035",
+    "id": "photo-036",
     "filename": "dusk-gradient.jpg",
     "displayUrl": "photos/display/dusk-gradient.webp",
     "thumbUrl": "photos/thumbs/dusk-gradient.webp",
@@ -1044,7 +1077,7 @@
     }
   },
   {
-    "id": "photo-036",
+    "id": "photo-037",
     "filename": "ember-on-the-horizon.jpg",
     "displayUrl": "photos/display/ember-on-the-horizon.webp",
     "thumbUrl": "photos/thumbs/ember-on-the-horizon.webp",
@@ -1073,7 +1106,7 @@
     }
   },
   {
-    "id": "photo-037",
+    "id": "photo-038",
     "filename": "flaming-cirrus.jpg",
     "displayUrl": "photos/display/flaming-cirrus.webp",
     "thumbUrl": "photos/thumbs/flaming-cirrus.webp",
@@ -1102,7 +1135,7 @@
     }
   },
   {
-    "id": "photo-038",
+    "id": "photo-039",
     "filename": "mackerel-sky.jpg",
     "displayUrl": "photos/display/mackerel-sky.webp",
     "thumbUrl": "photos/thumbs/mackerel-sky.webp",
@@ -1131,7 +1164,7 @@
     }
   },
   {
-    "id": "photo-039",
+    "id": "photo-040",
     "filename": "monolith-cloud.jpg",
     "displayUrl": "photos/display/monolith-cloud.webp",
     "thumbUrl": "photos/thumbs/monolith-cloud.webp",
@@ -1160,7 +1193,7 @@
     }
   },
   {
-    "id": "photo-040",
+    "id": "photo-041",
     "filename": "rooftop-canyon-sunset.jpg",
     "displayUrl": "photos/display/rooftop-canyon-sunset.webp",
     "thumbUrl": "photos/thumbs/rooftop-canyon-sunset.webp",
@@ -1189,7 +1222,7 @@
     }
   },
   {
-    "id": "photo-041",
+    "id": "photo-042",
     "filename": "solar-corona-over-concrete.jpg",
     "displayUrl": "photos/display/solar-corona-over-concrete.webp",
     "thumbUrl": "photos/thumbs/solar-corona-over-concrete.webp",
@@ -1218,7 +1251,7 @@
     }
   },
   {
-    "id": "photo-042",
+    "id": "photo-043",
     "filename": "solar-flare-through-the-canopy.jpg",
     "displayUrl": "photos/display/solar-flare-through-the-canopy.webp",
     "thumbUrl": "photos/thumbs/solar-flare-through-the-canopy.webp",
@@ -1247,7 +1280,7 @@
     }
   },
   {
-    "id": "photo-043",
+    "id": "photo-044",
     "filename": "swallows-in-the-tempest.jpg",
     "displayUrl": "photos/display/swallows-in-the-tempest.webp",
     "thumbUrl": "photos/thumbs/swallows-in-the-tempest.webp",
@@ -1276,7 +1309,7 @@
     }
   },
   {
-    "id": "photo-044",
+    "id": "photo-045",
     "filename": "the-burning-cloud.jpg",
     "displayUrl": "photos/display/the-burning-cloud.webp",
     "thumbUrl": "photos/thumbs/the-burning-cloud.webp",
@@ -1305,7 +1338,7 @@
     }
   },
   {
-    "id": "photo-045",
+    "id": "photo-046",
     "filename": "alice-in-chains-jar-of-flies.jpg",
     "displayUrl": "photos/display/alice-in-chains-jar-of-flies.webp",
     "thumbUrl": "photos/thumbs/alice-in-chains-jar-of-flies.webp",
@@ -1334,7 +1367,7 @@
     }
   },
   {
-    "id": "photo-046",
+    "id": "photo-047",
     "filename": "amy-lee-fallen.jpg",
     "displayUrl": "photos/display/amy-lee-fallen.webp",
     "thumbUrl": "photos/thumbs/amy-lee-fallen.webp",
@@ -1363,7 +1396,7 @@
     }
   },
   {
-    "id": "photo-047",
+    "id": "photo-048",
     "filename": "blizzard-of-ozz.jpg",
     "displayUrl": "photos/display/blizzard-of-ozz.webp",
     "thumbUrl": "photos/thumbs/blizzard-of-ozz.webp",
@@ -1392,7 +1425,7 @@
     }
   },
   {
-    "id": "photo-048",
+    "id": "photo-049",
     "filename": "glass-clay-vinyl.jpg",
     "displayUrl": "photos/display/glass-clay-vinyl.webp",
     "thumbUrl": "photos/thumbs/glass-clay-vinyl.webp",
@@ -1421,7 +1454,7 @@
     }
   },
   {
-    "id": "photo-049",
+    "id": "photo-050",
     "filename": "groove-stylus.jpg",
     "displayUrl": "photos/display/groove-stylus.webp",
     "thumbUrl": "photos/thumbs/groove-stylus.webp",
@@ -1450,7 +1483,7 @@
     }
   },
   {
-    "id": "photo-050",
+    "id": "photo-051",
     "filename": "images-and-words.jpg",
     "displayUrl": "photos/display/images-and-words.webp",
     "thumbUrl": "photos/thumbs/images-and-words.webp",
@@ -1479,7 +1512,7 @@
     }
   },
   {
-    "id": "photo-051",
+    "id": "photo-052",
     "filename": "in-utero-angel.jpg",
     "displayUrl": "photos/display/in-utero-angel.webp",
     "thumbUrl": "photos/thumbs/in-utero-angel.webp",
@@ -1508,7 +1541,7 @@
     }
   },
   {
-    "id": "photo-052",
+    "id": "photo-053",
     "filename": "journey-escape.jpg",
     "displayUrl": "photos/display/journey-escape.webp",
     "thumbUrl": "photos/thumbs/journey-escape.webp",
@@ -1537,7 +1570,7 @@
     }
   },
   {
-    "id": "photo-053",
+    "id": "photo-054",
     "filename": "meddle-in-cyan-rust.jpg",
     "displayUrl": "photos/display/meddle-in-cyan-rust.webp",
     "thumbUrl": "photos/thumbs/meddle-in-cyan-rust.webp",
@@ -1566,7 +1599,7 @@
     }
   },
   {
-    "id": "photo-054",
+    "id": "photo-055",
     "filename": "nirvana-nevermind.jpg",
     "displayUrl": "photos/display/nirvana-nevermind.webp",
     "thumbUrl": "photos/thumbs/nirvana-nevermind.webp",
@@ -1595,7 +1628,7 @@
     }
   },
   {
-    "id": "photo-055",
+    "id": "photo-056",
     "filename": "obscured-by-clouds.jpg",
     "displayUrl": "photos/display/obscured-by-clouds.webp",
     "thumbUrl": "photos/thumbs/obscured-by-clouds.webp",
@@ -1624,7 +1657,7 @@
     }
   },
   {
-    "id": "photo-056",
+    "id": "photo-057",
     "filename": "parasomnia.jpg",
     "displayUrl": "photos/display/parasomnia.webp",
     "thumbUrl": "photos/thumbs/parasomnia.webp",
@@ -1653,7 +1686,7 @@
     }
   },
   {
-    "id": "photo-057",
+    "id": "photo-058",
     "filename": "pearl-jam-in-amber.jpg",
     "displayUrl": "photos/display/pearl-jam-in-amber.webp",
     "thumbUrl": "photos/thumbs/pearl-jam-in-amber.webp",
@@ -1682,7 +1715,7 @@
     }
   },
   {
-    "id": "photo-058",
+    "id": "photo-059",
     "filename": "pink-floyd-at-pompeii.jpg",
     "displayUrl": "photos/display/pink-floyd-at-pompeii.webp",
     "thumbUrl": "photos/thumbs/pink-floyd-at-pompeii.webp",
@@ -1711,7 +1744,7 @@
     }
   },
   {
-    "id": "photo-059",
+    "id": "photo-060",
     "filename": "piper-at-the-gates-of-dawn.jpg",
     "displayUrl": "photos/display/piper-at-the-gates-of-dawn.webp",
     "thumbUrl": "photos/thumbs/piper-at-the-gates-of-dawn.webp",
@@ -1740,7 +1773,7 @@
     }
   },
   {
-    "id": "photo-060",
+    "id": "photo-061",
     "filename": "prism-in-hand.jpg",
     "displayUrl": "photos/display/prism-in-hand.webp",
     "thumbUrl": "photos/thumbs/prism-in-hand.webp",
@@ -1769,7 +1802,7 @@
     }
   },
   {
-    "id": "photo-061",
+    "id": "photo-062",
     "filename": "spinning-at-33-rpm.jpg",
     "displayUrl": "photos/display/spinning-at-33-rpm.webp",
     "thumbUrl": "photos/thumbs/spinning-at-33-rpm.webp",
@@ -1798,7 +1831,7 @@
     }
   },
   {
-    "id": "photo-062",
+    "id": "photo-063",
     "filename": "the-audiophile-sanctuary.jpg",
     "displayUrl": "photos/display/the-audiophile-sanctuary.webp",
     "thumbUrl": "photos/thumbs/the-audiophile-sanctuary.webp",
@@ -1827,7 +1860,7 @@
     }
   },
   {
-    "id": "photo-063",
+    "id": "photo-064",
     "filename": "the-doors-in-the-shadows.jpg",
     "displayUrl": "photos/display/the-doors-in-the-shadows.webp",
     "thumbUrl": "photos/thumbs/the-doors-in-the-shadows.webp",
@@ -1856,7 +1889,7 @@
     }
   },
   {
-    "id": "photo-064",
+    "id": "photo-065",
     "filename": "the-golden-shrine-of-sound.jpg",
     "displayUrl": "photos/display/the-golden-shrine-of-sound.webp",
     "thumbUrl": "photos/thumbs/the-golden-shrine-of-sound.webp",
@@ -1885,7 +1918,7 @@
     }
   },
   {
-    "id": "photo-065",
+    "id": "photo-066",
     "filename": "the-lizard-king.jpg",
     "displayUrl": "photos/display/the-lizard-king.webp",
     "thumbUrl": "photos/thumbs/the-lizard-king.webp",
@@ -1914,7 +1947,7 @@
     }
   },
   {
-    "id": "photo-066",
+    "id": "photo-067",
     "filename": "the-rebel-poet.jpg",
     "displayUrl": "photos/display/the-rebel-poet.webp",
     "thumbUrl": "photos/thumbs/the-rebel-poet.webp",
@@ -1943,7 +1976,7 @@
     }
   },
   {
-    "id": "photo-067",
+    "id": "photo-068",
     "filename": "the-terracotta-pantheon.jpg",
     "displayUrl": "photos/display/the-terracotta-pantheon.webp",
     "thumbUrl": "photos/thumbs/the-terracotta-pantheon.webp",
@@ -1972,7 +2005,7 @@
     }
   },
   {
-    "id": "photo-068",
+    "id": "photo-069",
     "filename": "the-wall-in-white.jpg",
     "displayUrl": "photos/display/the-wall-in-white.webp",
     "thumbUrl": "photos/thumbs/the-wall-in-white.webp",
@@ -2001,7 +2034,7 @@
     }
   },
   {
-    "id": "photo-069",
+    "id": "photo-070",
     "filename": "three-cheers-in-the-crates.jpg",
     "displayUrl": "photos/display/three-cheers-in-the-crates.webp",
     "thumbUrl": "photos/thumbs/three-cheers-in-the-crates.webp",
@@ -2030,7 +2063,7 @@
     }
   },
   {
-    "id": "photo-070",
+    "id": "photo-071",
     "filename": "twin-lens-tonearm.jpg",
     "displayUrl": "photos/display/twin-lens-tonearm.webp",
     "thumbUrl": "photos/thumbs/twin-lens-tonearm.webp",
@@ -2059,7 +2092,7 @@
     }
   },
   {
-    "id": "photo-071",
+    "id": "photo-072",
     "filename": "vinyl-madness.jpg",
     "displayUrl": "photos/display/vinyl-madness.webp",
     "thumbUrl": "photos/thumbs/vinyl-madness.webp",
@@ -2088,7 +2121,7 @@
     }
   },
   {
-    "id": "photo-072",
+    "id": "photo-073",
     "filename": "wish-you-were-here.jpg",
     "displayUrl": "photos/display/wish-you-were-here.webp",
     "thumbUrl": "photos/thumbs/wish-you-were-here.webp",
@@ -2117,7 +2150,7 @@
     }
   },
   {
-    "id": "photo-073",
+    "id": "photo-074",
     "filename": "carriers-of-cold.jpg",
     "displayUrl": "photos/display/carriers-of-cold.webp",
     "thumbUrl": "photos/thumbs/carriers-of-cold.webp",
@@ -2146,7 +2179,7 @@
     }
   },
   {
-    "id": "photo-074",
+    "id": "photo-075",
     "filename": "daily-breadth.jpg",
     "displayUrl": "photos/display/daily-breadth.webp",
     "thumbUrl": "photos/thumbs/daily-breadth.webp",
@@ -2175,7 +2208,7 @@
     }
   },
   {
-    "id": "photo-075",
+    "id": "photo-076",
     "filename": "embers-and-kernels.jpg",
     "displayUrl": "photos/display/embers-and-kernels.webp",
     "thumbUrl": "photos/thumbs/embers-and-kernels.webp",
@@ -2208,7 +2241,7 @@
     }
   },
   {
-    "id": "photo-076",
+    "id": "photo-077",
     "filename": "green-husks.jpg",
     "displayUrl": "photos/display/green-husks.webp",
     "thumbUrl": "photos/thumbs/green-husks.webp",
@@ -2241,7 +2274,7 @@
     }
   },
   {
-    "id": "photo-077",
+    "id": "photo-078",
     "filename": "silk-and-shuck.jpg",
     "displayUrl": "photos/display/silk-and-shuck.webp",
     "thumbUrl": "photos/thumbs/silk-and-shuck.webp",
@@ -2274,7 +2307,7 @@
     }
   },
   {
-    "id": "photo-078",
+    "id": "photo-079",
     "filename": "stop-growth.jpg",
     "displayUrl": "photos/display/stop-growth.webp",
     "thumbUrl": "photos/thumbs/stop-growth.webp",
@@ -2303,7 +2336,7 @@
     }
   },
   {
-    "id": "photo-079",
+    "id": "photo-080",
     "filename": "the-balloon-seller.jpg",
     "displayUrl": "photos/display/the-balloon-seller.webp",
     "thumbUrl": "photos/thumbs/the-balloon-seller.webp",
@@ -2332,7 +2365,7 @@
     }
   },
   {
-    "id": "photo-080",
+    "id": "photo-081",
     "filename": "the-noon-porter.jpg",
     "displayUrl": "photos/display/the-noon-porter.webp",
     "thumbUrl": "photos/thumbs/the-noon-porter.webp",
@@ -2361,7 +2394,7 @@
     }
   },
   {
-    "id": "photo-081",
+    "id": "photo-082",
     "filename": "the-older-brother.jpg",
     "displayUrl": "photos/display/the-older-brother.webp",
     "thumbUrl": "photos/thumbs/the-older-brother.webp",
@@ -2390,7 +2423,7 @@
     }
   },
   {
-    "id": "photo-082",
+    "id": "photo-083",
     "filename": "the-roadside-roaster.jpg",
     "displayUrl": "photos/display/the-roadside-roaster.webp",
     "thumbUrl": "photos/thumbs/the-roadside-roaster.webp",
@@ -2423,7 +2456,7 @@
     }
   },
   {
-    "id": "photo-083",
+    "id": "photo-084",
     "filename": "the-street-welder.jpg",
     "displayUrl": "photos/display/the-street-welder.webp",
     "thumbUrl": "photos/thumbs/the-street-welder.webp",
@@ -2456,7 +2489,7 @@
     }
   },
   {
-    "id": "photo-084",
+    "id": "photo-085",
     "filename": "tungsten-greens.jpg",
     "displayUrl": "photos/display/tungsten-greens.webp",
     "thumbUrl": "photos/thumbs/tungsten-greens.webp",
@@ -2485,7 +2518,7 @@
     }
   },
   {
-    "id": "photo-085",
+    "id": "photo-086",
     "filename": "university-avenue-at-dusk.jpg",
     "displayUrl": "photos/display/university-avenue-at-dusk.webp",
     "thumbUrl": "photos/thumbs/university-avenue-at-dusk.webp",
@@ -2514,7 +2547,7 @@
     }
   },
   {
-    "id": "photo-086",
+    "id": "photo-087",
     "filename": "canopy-bridge.jpg",
     "displayUrl": "photos/display/canopy-bridge.webp",
     "thumbUrl": "photos/thumbs/canopy-bridge.webp",
@@ -2543,7 +2576,7 @@
     }
   },
   {
-    "id": "photo-087",
+    "id": "photo-088",
     "filename": "cascading-balconies.jpg",
     "displayUrl": "photos/display/cascading-balconies.webp",
     "thumbUrl": "photos/thumbs/cascading-balconies.webp",
@@ -2572,7 +2605,7 @@
     }
   },
   {
-    "id": "photo-088",
+    "id": "photo-089",
     "filename": "epiphytes-louvers.jpg",
     "displayUrl": "photos/display/epiphytes-louvers.webp",
     "thumbUrl": "photos/thumbs/epiphytes-louvers.webp",
@@ -2601,7 +2634,7 @@
     }
   },
   {
-    "id": "photo-089",
+    "id": "photo-090",
     "filename": "fractal-limbs.jpg",
     "displayUrl": "photos/display/fractal-limbs.webp",
     "thumbUrl": "photos/thumbs/fractal-limbs.webp",
@@ -2630,7 +2663,7 @@
     }
   },
   {
-    "id": "photo-090",
+    "id": "photo-091",
     "filename": "lantern-in-the-leaves.jpg",
     "displayUrl": "photos/display/lantern-in-the-leaves.webp",
     "thumbUrl": "photos/thumbs/lantern-in-the-leaves.webp",
@@ -2659,7 +2692,7 @@
     }
   },
   {
-    "id": "photo-091",
+    "id": "photo-092",
     "filename": "life-in-the-fracture.jpg",
     "displayUrl": "photos/display/life-in-the-fracture.webp",
     "thumbUrl": "photos/thumbs/life-in-the-fracture.webp",
@@ -2688,7 +2721,7 @@
     }
   },
   {
-    "id": "photo-092",
+    "id": "photo-093",
     "filename": "lily-pad-constellation.jpg",
     "displayUrl": "photos/display/lily-pad-constellation.webp",
     "thumbUrl": "photos/thumbs/lily-pad-constellation.webp",
@@ -2717,7 +2750,7 @@
     }
   },
   {
-    "id": "photo-093",
+    "id": "photo-094",
     "filename": "looking-skyward.jpg",
     "displayUrl": "photos/display/looking-skyward.webp",
     "thumbUrl": "photos/thumbs/looking-skyward.webp",
@@ -2746,7 +2779,7 @@
     }
   },
   {
-    "id": "photo-094",
+    "id": "photo-095",
     "filename": "nocturnal-bougainvillea.jpg",
     "displayUrl": "photos/display/nocturnal-bougainvillea.webp",
     "thumbUrl": "photos/thumbs/nocturnal-bougainvillea.webp",
@@ -2772,7 +2805,39 @@
     }
   },
   {
-    "id": "photo-095",
+    "id": "photo-096",
+    "filename": "stars-in-the-foliage.jpg",
+    "displayUrl": "photos/display/stars-in-the-foliage.webp",
+    "thumbUrl": "photos/thumbs/stars-in-the-foliage.webp",
+    "blurDataUrl": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCsACHIx6E/xP06gI3I3gAA/vMfsKbmkt1PjQS9hQ8LflaZNIWy5VifFyLiDkZeUxB/UhDEnvwlQSnh8t3NWJVfC78xb/AWm6bAJvv5Ljv+1733ZGAA",
+    "width": 6016,
+    "height": 4012,
+    "aspectRatio": 1.5,
+    "orientation": "landscape",
+    "title": "Stars in the Foliage",
+    "collection": "urban-nature",
+    "tags": [
+      "urban nature",
+      "jasmine",
+      "flora",
+      "blossoms",
+      "white flowers",
+      "foliage",
+      "leaves"
+    ],
+    "featured": false,
+    "camera": {
+      "model": "Canon EOS M50",
+      "lens": "Canon EF-M15-45mm f/3.5-6.3 IS STM",
+      "shutter": "1/30s",
+      "aperture": "f/5.6",
+      "iso": "ISO 500",
+      "focalLength": "23mm",
+      "date": "2026-11-07 17:46:41"
+    }
+  },
+  {
+    "id": "photo-097",
     "filename": "steel-truss-living-roots.jpg",
     "displayUrl": "photos/display/steel-truss-living-roots.webp",
     "thumbUrl": "photos/thumbs/steel-truss-living-roots.webp",
@@ -2801,7 +2866,7 @@
     }
   },
   {
-    "id": "photo-096",
+    "id": "photo-098",
     "filename": "suhrawardy-canopy.jpg",
     "displayUrl": "photos/display/suhrawardy-canopy.webp",
     "thumbUrl": "photos/thumbs/suhrawardy-canopy.webp",
@@ -2830,7 +2895,7 @@
     }
   },
   {
-    "id": "photo-097",
+    "id": "photo-099",
     "filename": "sunlight-on-green-silk.jpg",
     "displayUrl": "photos/display/sunlight-on-green-silk.webp",
     "thumbUrl": "photos/thumbs/sunlight-on-green-silk.webp",
@@ -2859,7 +2924,7 @@
     }
   },
   {
-    "id": "photo-098",
+    "id": "photo-100",
     "filename": "sunlit-bougainvillea.jpg",
     "displayUrl": "photos/display/sunlit-bougainvillea.webp",
     "thumbUrl": "photos/thumbs/sunlit-bougainvillea.webp",
@@ -2890,7 +2955,7 @@
     }
   },
   {
-    "id": "photo-099",
+    "id": "photo-101",
     "filename": "tender-shoots.jpg",
     "displayUrl": "photos/display/tender-shoots.webp",
     "thumbUrl": "photos/thumbs/tender-shoots.webp",
@@ -2916,7 +2981,7 @@
     }
   },
   {
-    "id": "photo-100",
+    "id": "photo-102",
     "filename": "the-ancient-column.jpg",
     "displayUrl": "photos/display/the-ancient-column.webp",
     "thumbUrl": "photos/thumbs/the-ancient-column.webp",
@@ -2945,7 +3010,7 @@
     }
   },
   {
-    "id": "photo-101",
+    "id": "photo-103",
     "filename": "the-arching-blade.jpg",
     "displayUrl": "photos/display/the-arching-blade.webp",
     "thumbUrl": "photos/thumbs/the-arching-blade.webp",
@@ -2971,7 +3036,7 @@
     }
   },
   {
-    "id": "photo-102",
+    "id": "photo-104",
     "filename": "the-climbing-ivy.jpg",
     "displayUrl": "photos/display/the-climbing-ivy.webp",
     "thumbUrl": "photos/thumbs/the-climbing-ivy.webp",
@@ -3000,7 +3065,7 @@
     }
   },
   {
-    "id": "photo-103",
+    "id": "photo-105",
     "filename": "the-iron-trellis.jpg",
     "displayUrl": "photos/display/the-iron-trellis.webp",
     "thumbUrl": "photos/thumbs/the-iron-trellis.webp",
@@ -3029,7 +3094,7 @@
     }
   },
   {
-    "id": "photo-104",
+    "id": "photo-106",
     "filename": "the-knot-of-roots.jpg",
     "displayUrl": "photos/display/the-knot-of-roots.webp",
     "thumbUrl": "photos/thumbs/the-knot-of-roots.webp",
@@ -3058,7 +3123,7 @@
     }
   },
   {
-    "id": "photo-105",
+    "id": "photo-107",
     "filename": "the-living-curtain.jpg",
     "displayUrl": "photos/display/the-living-curtain.webp",
     "thumbUrl": "photos/thumbs/the-living-curtain.webp",
@@ -3087,7 +3152,7 @@
     }
   },
   {
-    "id": "photo-106",
+    "id": "photo-108",
     "filename": "the-mirrored-lake.jpg",
     "displayUrl": "photos/display/the-mirrored-lake.webp",
     "thumbUrl": "photos/thumbs/the-mirrored-lake.webp",
@@ -3116,7 +3181,7 @@
     }
   },
   {
-    "id": "photo-107",
+    "id": "photo-109",
     "filename": "the-moored-swans.jpg",
     "displayUrl": "photos/display/the-moored-swans.webp",
     "thumbUrl": "photos/thumbs/the-moored-swans.webp",
@@ -3145,7 +3210,7 @@
     }
   },
   {
-    "id": "photo-108",
+    "id": "photo-110",
     "filename": "the-pale-blossom.jpg",
     "displayUrl": "photos/display/the-pale-blossom.webp",
     "thumbUrl": "photos/thumbs/the-pale-blossom.webp",
@@ -3171,7 +3236,7 @@
     }
   },
   {
-    "id": "photo-109",
+    "id": "photo-111",
     "filename": "the-solitary-jasmine.jpg",
     "displayUrl": "photos/display/the-solitary-jasmine.webp",
     "thumbUrl": "photos/thumbs/the-solitary-jasmine.webp",
@@ -3202,7 +3267,7 @@
     }
   },
   {
-    "id": "photo-110",
+    "id": "photo-112",
     "filename": "the-sprawling-canopy.jpg",
     "displayUrl": "photos/display/the-sprawling-canopy.webp",
     "thumbUrl": "photos/thumbs/the-sprawling-canopy.webp",
@@ -3231,7 +3296,7 @@
     }
   },
   {
-    "id": "photo-111",
+    "id": "photo-113",
     "filename": "the-weeping-banyan.jpg",
     "displayUrl": "photos/display/the-weeping-banyan.webp",
     "thumbUrl": "photos/thumbs/the-weeping-banyan.webp",
@@ -3260,7 +3325,7 @@
     }
   },
   {
-    "id": "photo-112",
+    "id": "photo-114",
     "filename": "urban-taro-fields.jpg",
     "displayUrl": "photos/display/urban-taro-fields.webp",
     "thumbUrl": "photos/thumbs/urban-taro-fields.webp",
@@ -3289,7 +3354,7 @@
     }
   },
   {
-    "id": "photo-113",
+    "id": "photo-115",
     "filename": "veil-of-the-banyan.jpg",
     "displayUrl": "photos/display/veil-of-the-banyan.webp",
     "thumbUrl": "photos/thumbs/veil-of-the-banyan.webp",
@@ -3318,7 +3383,7 @@
     }
   },
   {
-    "id": "photo-114",
+    "id": "photo-116",
     "filename": "wild-jasmine-grass.jpg",
     "displayUrl": "photos/display/wild-jasmine-grass.webp",
     "thumbUrl": "photos/thumbs/wild-jasmine-grass.webp",
@@ -3347,7 +3412,7 @@
     }
   },
   {
-    "id": "photo-115",
+    "id": "photo-117",
     "filename": "yellow-blossoms-on-iron.jpg",
     "displayUrl": "photos/display/yellow-blossoms-on-iron.webp",
     "thumbUrl": "photos/thumbs/yellow-blossoms-on-iron.webp",
